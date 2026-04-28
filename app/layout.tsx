@@ -16,9 +16,12 @@ const fraunces = Fraunces({
   display: "swap",
 })
 
+
 export const metadata: Metadata = {
   title: "Online Physiotherapy Consultation | Dr Shivali Physiotherapy Haryana",
-
+verification: {
+    google: "k-nJAegrzAZ3ixh4WMMvFJQh",
+  },
   description:
     "Get expert online physiotherapy consultation from Dr Shivali. Personalized treatment for back pain, neuro rehab, and recovery across Haryana and India.",
 
@@ -37,14 +40,14 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://drshivaliphysio.com"),
 
   alternates: {
-    canonical: "/",
+    canonical: "https://drshivaliphysio.com",
   },
 
   openGraph: {
     title: "Online Physiotherapy Consultation | Dr Shivali",
     description:
       "Expert online physiotherapy sessions for pain relief and recovery. Book consultation today.",
-    url: "https://drshivaliphysio.com",
+    url: "https://drshivaliphysio.com/",
     siteName: "Dr Shivali Physiotherapy",
     images: [
       {
@@ -107,7 +110,11 @@ export default function RootLayout({
               name: "Dr Shivali Physiotherapy",
               description:
                 "Online physiotherapy consultation and rehabilitation services",
-              areaServed: "Haryana, India",
+                "@id": "https://drshivaliphysio.com/#organization",
+              areaServed: {
+  "@type": "AdministrativeArea",
+  name: "Haryana, India",
+},
               url: "https://drshivaliphysio.com",
               availableService: {
                 "@type": "MedicalTherapy",
