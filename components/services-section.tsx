@@ -12,7 +12,7 @@ export function ServicesSection() {
           <div className="max-w-2xl">
             <span className="text-xs font-medium uppercase tracking-[0.14em] text-primary">Services</span>
             <h2 className="mt-3 text-pretty font-serif text-3xl font-medium leading-tight text-foreground md:text-4xl">
-              Simple, focused care — designed around your recovery.
+              Best Physiotherapy Clinic in Haryana — Expert Care for Faster Recovery
             </h2>
           </div>
           <p className="max-w-sm text-sm leading-relaxed text-muted-foreground">
