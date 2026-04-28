@@ -20,7 +20,7 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   title: "Online Physiotherapy Consultation | Dr Shivali Physiotherapy Haryana",
 verification: {
-    google: "k-nJAegrzAZ3ixh4WMMvFJQh",
+    google: "k-nJAegrzAZ3ixh4WMMvFJQhwg0Kq5AdHUZbcl8I6xo",
   },
   description:
     "Get expert online physiotherapy consultation from Dr Shivali. Personalized treatment for back pain, neuro rehab, and recovery across Haryana and India.",
