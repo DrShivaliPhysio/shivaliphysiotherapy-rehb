@@ -16,8 +16,8 @@ const navLinks = [
   { label: "Who It's For", href: "#audience" },
   { label: "Reviews", href: "#testimonials" },
   { label: "Awards", href: "#Awards" },
-  { label: "Flyers", href: "#flyer" },  
-   { label: "Camps", href: "#camps" },  
+  { label: "Flyers", href: "#flyer" },
+  { label: "Camps", href: "#camp" },
   { label: "FAQ", href: "#faq" },
 ]
 

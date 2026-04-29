@@ -1,12 +1,12 @@
-import { GraduationCap, HeartHandshake, MapPin, Award, Computer, Home, BookOpen, Presentation, Code2, PenTool, Gamepad2, Instagram, Facebook, Youtube } from "lucide-react";
+import { GraduationCap, HeartHandshake, MapPin, Award, Computer, Home, BookOpen, Presentation, Code2, PenTool, Gamepad2, Instagram, Facebook, Youtube, Linkedin } from "lucide-react";
 import { Video, Activity, User, Bandage, Dumbbell, Bone, Brain, Baby, ClipboardCheck, Syringe, FlaskConical, Footprints, Smile } from "lucide-react"
 import { Laptop2, HeartPulse, Trophy, UserRound, Heart, CircleDot, Waves, RotateCcw } from "lucide-react"
 
 export const Constants = {
   doctorName: "Dr. Shivali Gupta (P.T)",
   qualifications: "Consultant Physiotherapist | MPT(Neuro) | MIAP",
-  qualifications1: "DNHE | PGDHHM | CKT | CCT | CDNT | CNDT | MFR | CCE",
-  qualifications2: "Yoga Wellness Instructor | Certified in Hydrotherapy",
+  qualifications1: "DNHE | PGDHHM | CKT | CCT | CDNT | CNDT | MFR",
+  qualifications2: "Cert. in  Computer Ergonomics | Yoga Wellness Instructor | Cert. in Hydrotherapy",
   heroDescription: `One-on-one online consultations and personalized recovery plans designed around your body, your pace, and your daily life. Fifteen plus years of
    patient-first care — from Delhi to Mumbai, Lucknow & now serving patients from Haryana & Pan-India.`,
   contactNo: "+919324843597",
@@ -16,8 +16,9 @@ export const Constants = {
   availableSlots: "4",
   instaHandle: "@drshivali_physiotherapyclinic",
   instaHandleLink: "https://www.instagram.com/drshivali_physiotherapyclinic?igsh=MTh6cXUxMmgwYWZ4",
-  facebookLink: "#",
-  youtubeLink: "#",
+  facebookLink: "https://www.facebook.com/share/1EBVLVfzW8/?mibextid=wwXIfr",
+  youtubeLink: "https://youtube.com/@dr.shivali.gupta.physio?si=njb8Y2shQ-bOqxq6",
+  linkedin: "https://www.linkedin.com/in/docshivaligupta?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
   email: "Physiodrshivali@gmail.com",
   aboutUsMessage: `Recovery shouldn't feel rushed. I take the time to understand your story before building your plan. Because every body is different, 
   every treatment should be too. Together, we focus on steady progress, not quick fixes. Your recovery journey is guided with care, clarity, and consistency`,
@@ -40,7 +41,7 @@ export const AboutUsPoints = [
   {
     icon: GraduationCap,
     title: "Qualifications",
-    body: "MPT — Neuro, Diploma in Nutrition & Health Education, Post Graduate Diploma in Hospital & Health Care Management, Yoga Wellness Instructor, Certified in Dry Needling, Certified in Cupping Therapy, Certified in Hydrotherapy, Certified in Computer Ergonomics Assessment & Solution, Certified in Kinesiology Taping."
+    body: "MPT — Neuro, Diploma in Nutrition & Health Education, Post Graduate Diploma in Hospital & Health Care Management, Yoga Wellness Instructor, Cert. in Dry Needling, Cupping Therapy, Hydrotherapy, Computer Ergonomics Assessment & Solution, Kinesiology Taping."
   },
   {
     icon: Award,
@@ -76,7 +77,7 @@ export const Services = [
     icon: Bone,
     title: "Spinal Cord Injury",
     body: "Specialized physiotherapy to improve mobility, independence, and quality of life after spinal cord injuries. Customized therapy programs aimed at enhancing functional recovery and daily living skills.",
-  },  
+  },
   {
     icon: FlaskConical,
     title: "Advanced Rehabilitation Programs",
@@ -127,69 +128,65 @@ export const Services = [
     title: "Online Physiotherapy Consultation",
     body: "A focused one-on-one video session to assess your condition, answer questions, and map out next steps.",
   },
-   {
-    icon: Brain ,
+  {
+    icon: Brain,
     title: "Stroke Rehabilitation",
     body: "Recovery after stroke (paralysis, weakness, balance. Motor relearning & functional training",
   },
-   {
-    icon: Activity ,
+  {
+    icon: Activity,
     title: "Parkinson’s Disease Management",
     body: "Gait training, rigidity reduction. Movement coordination & posture correction",
   },
-   {
-    icon: Footprints ,
+  {
+    icon: Footprints,
     title: "Balance & Gait Training",
     body: "Fall prevention. Walking pattern correction",
   }, {
-    icon: RotateCcw ,
+    icon: RotateCcw,
     title: "Vestibular Rehabilitation (Vertigo)",
     body: "Dizziness & vertigo treatment. Inner ear balance therapy.",
   },
-   {
-    icon: Smile ,
-    title: "Online Physiotherapy Consultation",
-    body: "Facial muscle recovery. Symmetry restoration",
-  },
+
 ];
 
 export const SpecialServices = [
- {
+  {
     icon: Syringe,
     title: "Dry Needling Therapy",
     body: "Advanced technique targeting trigger points to relieve muscle pain and tightness. Helps improve mobility, reduce inflammation, and accelerate recovery.",
   },
   {
-  icon: CircleDot,
-  title: "Cupping Therapy",
-  body: "Therapeutic suction technique that improves blood circulation, relieves muscle tension, and promotes natural healing. Helps reduce pain and restore mobility.",
-},
-{
-  icon: Bandage,
-  title: "Kinesio Taping",
-  body: "Supportive taping method that stabilizes muscles and joints without restricting movement. Helps reduce pain, improve posture, and enhance recovery.",
-},
-{
-  icon: Waves,
-  title: "Hydrotherapy",
-  body: "Water-based therapy designed to relax muscles, improve circulation, and support rehabilitation. Ideal for pain relief, mobility improvement, and recovery.",
-},
+    icon: CircleDot,
+    title: "Cupping Therapy",
+    body: "Therapeutic suction technique that improves blood circulation, relieves muscle tension, and promotes natural healing. Helps reduce pain and restore mobility.",
+  },
+  {
+    icon: Bandage,
+    title: "Kinesio Taping",
+    body: "Supportive taping method that stabilizes muscles and joints without restricting movement. Helps reduce pain, improve posture, and enhance recovery.",
+  },
+  {
+    icon: Waves,
+    title: "Hydrotherapy",
+    body: "Water-based therapy designed to relax muscles, improve circulation, and support rehabilitation. Ideal for pain relief, mobility improvement, and recovery.",
+  },
 ];
 
 export const Awards = [
   {
-    icon: Award ,
+    icon: Award,
     title: "Nari Shakti Award - 2026",
     body: "Honored for outstanding contribution to women’s health and empowerment. Recognizing dedication, impact, and excellence in physiotherapy care.",
-    image: "/Award1.jpeg",
+    image: "/Award2.jpeg",
   },
   {
     icon: Trophy,
     title: "Significant achievement Award - 2024",
     body: "Awarded for delivering consistent results and exceptional patient outcomes. A testament to commitment, precision, and quality in treatment.",
-    image: "/Award2.jpeg",
+    image: "/Award1.jpeg",
   },
-  ];
+];
 
 export const Audiences = [
   {
@@ -291,76 +288,68 @@ export const Flyer = [
   },
   {
     title: "Significant achievement Award - 2024",
-    image: "/flyer1.jpeg",    
+    image: "/flyer1.jpeg",
   },
-   {
+  {
     title: "Significant achievement Award - 2024",
     image: "https://instagram.fdel27-4.fna.fbcdn.net/v/t51.82787-15/653903137_17945184465131365_512769113230541044_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzg1NDA0NjY4OTMxNzk0ODA3NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjExNTN4MTQzMi5zZHIuQzMifQ%3D%3D&_nc_ohc=TYB0m_3zbZYQ7kNvwGy_wIg&_nc_oc=AdrCmYgG4tb38AOPzCje6GbJfjBPEFaHYrgg2sFx8PTI3drZMV9M3AAnYnqDI157zHLzJ2PTKP-JT3TLCXW4xajn&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=instagram.fdel27-4.fna&_nc_gid=EYbn2aSfJHPbRPid_LtF4A&_nc_ss=7a22e&oh=00_Af0cmuB6PZfGGZX3U6lecN6S_Ng6T38vtKdJeJbJjFJLBA&oe=69F6C6EA",
-   },
-   {
+  },
+  {
     title: "Significant achievement Award - 2024",
     image: "/flyer2.jpeg",
-   },
-   {
+  },
+  {
     title: "Significant achievement Award - 2024",
     image: "https://instagram.fdel27-1.fna.fbcdn.net/v/t51.75761-15/469944014_17891608758131365_696599088056531736_n.jpg?stp=dst-jpg_e35_s720x720_tt6&_nc_cat=101&ig_cache_key=MzUyMTI3MTc2MzM1MzcwMjE2Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTM3My5zZHIuQzMifQ%3D%3D&_nc_ohc=u7GN8Mw7_AgQ7kNvwEZEpbX&_nc_oc=Ado0KE4tBCANLJelGY6JFuC8oyR4N4a8yJTJVjSXHwanP85FrgwjNr_TnhEpLxllyzwTyCCcF4DyRd9k2wcIuMAv&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=instagram.fdel27-1.fna&_nc_gid=Lc1LkRmaI3cQlk7GjbV5cg&_nc_ss=7a22e&oh=00_Af36msyPo4ObwZB1OH1XfZkMkKYokVeZXavQOTkrqYMkcg&oe=69F6ED9A",
-   },
-   {
-    title: "Significant achievement Award - 2024",
-    image: "https://instagram.fdel27-6.fna.fbcdn.net/v/t51.75761-15/469743117_17891609130131365_3537935800891470275_n.jpg?stp=dst-jpg_e35_s720x720_tt6&_nc_cat=111&ig_cache_key=MzUyMTI3Mjc0NTI0ODY3ODcyNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTM4Mi5zZHIuQzMifQ%3D%3D&_nc_ohc=vdUugPHrR9YQ7kNvwFVgEo3&_nc_oc=AdpbPF9dU99a1UY_fb9pdII8Hn4IdkxLHONGz_N0iOhTsUQ2H8dSq2LOkqpOgvR0p-6rgVhUl0Ar9djqLA_BM8Cq&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=instagram.fdel27-6.fna&_nc_gid=Lc1LkRmaI3cQlk7GjbV5cg&_nc_ss=7a22e&oh=00_Af15bJIAuGjKya-iEHDdpxo_BntCxnmBAHtJsbVyoU6ZWg&oe=69F6ED5D",
-   },
-     {
+  },
+  {
     title: "Significant achievement Award - 2024",
     image: "/flyer3.jpeg",
-   },
-     {
+  },
+  {
     title: "Significant achievement Award - 2024",
     image: "/flyer4.jpeg",
-   },
-   {
+  },
+  {
     title: "Significant achievement Award - 2024",
     image: "/flyer5.jpeg",
-   },
-    {
+  },
+  {
     title: "Significant achievement Award - 2024",
     image: "/flyer6.jpeg",
-   },
-    {
-    title: "Significant achievement Award - 2024",
-    image: "/flyer7.jpeg",
-   },
-  ]
+  },
+]
 
-  export const camp = [
+export const camp = [
   {
     title: "Nari Shakti Award - 2026",
+    image: "/camp5.jpeg",
+  },
+  {
+    title: "Significant achievement Award - 2024",
+    image: "/camp2.jpeg",
+  },
+  {
+    title: "Significant achievement Award - 2024",
+    image: "/camp3.jpeg",
+  },
+  {
+    title: "Significant achievement Award - 2024",
+    image: "/camp4.jpeg",
+  },
+  {
+    title: "Significant achievement Award - 2024",
     image: "/camp1.jpeg",
   },
   {
     title: "Significant achievement Award - 2024",
-    image: "/camp2.jpeg",    
-  },
-   {
-    title: "Significant achievement Award - 2024",
-    image: "/camp3.jpeg",
-   },
-   {
-    title: "Significant achievement Award - 2024",
-    image: "/camp4.jpeg",
-   },
-   {
-    title: "Significant achievement Award - 2024",
-    image: "/camp4.jpeg",
-   },
-   {
-    title: "Significant achievement Award - 2024",
-    image: "/camp5.jpeg",
-   },
-     {
-    title: "Significant achievement Award - 2024",
     image: "/camp6.jpeg",
-   },     
-  ]
+  },
+  {
+    title: "Significant achievement Award - 2024",
+    image: "/camp7.jpeg",
+  },
+]
 
 export const Faqs = [
   {
