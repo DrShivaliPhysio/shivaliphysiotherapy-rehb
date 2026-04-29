@@ -30,7 +30,7 @@ export function SiteHeader() {
             <span className="font-serif text-base font-medium text-foreground">{Constants.doctorName}</span>
             <span className="text-[11px] text-muted-foreground">{Constants.qualifications}</span>
             <span className="text-[11px] text-muted-foreground">{Constants.qualifications1}</span>
-            <span className="text-[11px] text-muted-foreground">{Constants.qualifications2}</span>
+            {/* <span className="text-[11px] text-muted-foreground">{Constants.qualifications2}</span> */}
           </span>
         </Link>
 
