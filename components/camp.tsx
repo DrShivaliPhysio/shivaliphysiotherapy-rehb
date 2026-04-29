@@ -6,17 +6,17 @@ import { ArrowUpRight } from "lucide-react";
 
 export function CampSection() {
   return (
-    <section id="camp" className="bg-background/40 py-10 md:py-10">
+    <section id="camp" className="bg-secondary py-10 md:py-10">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         <div className="flex flex-col items-start gap-4 md:flex-row md:items-end md:justify-between">
           <div className="max-w-2xl">
-            <span className="text-xs font-medium uppercase tracking-[0.14em] text-primary">camp</span>
+            <span className="text-xs font-medium uppercase tracking-[0.14em] text-primary">Camp Held</span>
             <h2 className="mt-3 text-pretty font-serif text-3xl font-medium leading-tight text-foreground md:text-4xl">
-              Clear, trusted care — shared in a simple way.
+              Care that reaches you — where it matters most.
             </h2>
           </div>
           <p className="max-w-sm text-sm leading-relaxed text-muted-foreground">
-            Everything you need to know, from treatments to recovery guidance, in one place.
+            Bringing expert physiotherapy services closer to communities through dedicated health camps.
           </p>
         </div>
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

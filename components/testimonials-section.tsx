@@ -5,7 +5,7 @@ import { Quote } from "lucide-react"
 
 export function TestimonialsSection() {
   return (
-    <section id="testimonials" className="bg-secondary/40 py-10">
+    <section id="testimonials" className="bg-secondary py-10">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         <div className="max-w-2xl">
           <span className="text-xs font-medium uppercase tracking-[0.14em] text-primary">Patient stories</span>

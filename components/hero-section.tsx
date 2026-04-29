@@ -5,7 +5,7 @@ import { Constants, KeyFacilities } from "@/lib/constants"
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-secondary/40 py-8">
+    <section className="relative overflow-hidden bg-secondary py-8">
       {/* very soft tinted backdrop shape */}
       <div
         aria-hidden

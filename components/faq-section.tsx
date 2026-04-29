@@ -3,7 +3,7 @@ import { Faqs } from "@/lib/constants"
 
 export function FaqSection() {
   return (
-    <section id="faq" className="bg-secondary/40 py-10">
+    <section id="faq" className="bg-background/40 py-10">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         <div className="text-center">
           <span className="text-xs font-medium uppercase tracking-[0.14em] text-primary">FAQ</span>
