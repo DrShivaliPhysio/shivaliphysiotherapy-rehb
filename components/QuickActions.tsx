@@ -75,7 +75,7 @@ const QuickActions = () => {
             <div>
               <div className="text-xs text-muted-foreground leading-none">Opening Hours</div>
               <div className="text-sm font-semibold text-foreground leading-tight">
-                Mon–Fri 10AM–6PM
+                Mon–Fri 10AM–7PM
               </div>
             </div>
           </div>

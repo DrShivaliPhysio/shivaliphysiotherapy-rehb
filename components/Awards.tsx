@@ -30,7 +30,7 @@ export function AwardsSection() {
               </span>
               <h3 className="mt-5 font-serif text-lg font-medium text-foreground">{service.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{service.body}</p>          
-              <img src={service.image} alt={service.title} className="mt-3 rounded-lg object-cover w-full h-40"></img> 
+              <img src={service.image} alt={service.title} className="mt-3 rounded-lg object-cover w-full h-full"></img> 
             </article>
           ))}
         </div>

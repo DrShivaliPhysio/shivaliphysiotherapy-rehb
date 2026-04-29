@@ -27,6 +27,8 @@ export function AboutSection() {
                 <div>
                   <div className="text-sm font-medium text-foreground">{Constants.doctorName}</div>
                   <div className="text-xs text-muted-foreground">{Constants.qualifications}</div>
+                  <div className="text-xs text-muted-foreground">{Constants.qualifications1}</div>
+                  <div className="text-xs text-muted-foreground">{Constants.qualifications2}</div>
                 </div>
               </div>
               <p className="mt-3 text-sm leading-relaxed text-muted-foreground">

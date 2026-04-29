@@ -1,14 +1,17 @@
-import { GraduationCap, HeartHandshake, MapPin, Award, Computer, LaptopIcon, LucideBook, Home, BookOpen, Presentation, Code2, PenTool, Gamepad2, Instagram, Facebook, Youtube } from "lucide-react";
+import { GraduationCap, HeartHandshake, MapPin, Award, Computer, Home, BookOpen, Presentation, Code2, PenTool, Gamepad2, Instagram, Facebook, Youtube } from "lucide-react";
 import { Video, Activity, User, Bandage, Dumbbell, Bone, Brain, Baby, ClipboardCheck, Syringe, FlaskConical, Footprints, Smile } from "lucide-react"
 import { Laptop2, HeartPulse, Trophy, UserRound, Heart, CircleDot, Waves, RotateCcw } from "lucide-react"
 
 export const Constants = {
   doctorName: "Dr. Shivali Gupta (P.T)",
-  qualifications: "Senior Physiotherapist · PT, MPT(Neuro), D.N.H.E, P.G.D.H.H.M",
-  heroDescription: "One-on-one online consultations and personalized recovery plans designed around your body, your pace, and your daily life. Fifteen plus years of patient-first care — from Delhi to Mumbai, Lucknow & now serving patients from Haryana & Pan-India.",
+  qualifications: "Consultant Physiotherapist | MPT (Neuro) | MIAP",
+  qualifications1: "DNHE | PDHHM | CKT | CCT | CDNT | CNDT | MFR | CCE",
+  qualifications2: "Yoga Wellness Instructor | Certified in Hydrotherapy",
+  heroDescription: `One-on-one online consultations and personalized recovery plans designed around your body, your pace, and your daily life. Fifteen plus years of
+   patient-first care — from Delhi to Mumbai, Lucknow & now serving patients from Haryana & Pan-India.`,
   contactNo: "+919324843597",
   yearsExperience: "15+",
-  patientsTreated: "10,000+",
+  patientsTreated: "95,000+",
   patientRating: "4.9/5",
   availableSlots: "4",
   instaHandle: "@drshivali_physiotherapyclinic",
@@ -16,7 +19,8 @@ export const Constants = {
   facebookLink: "#",
   youtubeLink: "#",
   email: "Physiodrshivali@gmail.com",
-  aboutUsMessage: `"Recovery shouldn't feel rushed. I take the time to understand your story before building your plan. Because every body is different, every treatment should be too. Together, we focus on steady progress, not quick fixes. Your recovery journey is guided with care, clarity, and consistency"`,
+  aboutUsMessage: `Recovery shouldn't feel rushed. I take the time to understand your story before building your plan. Because every body is different, 
+  every treatment should be too. Together, we focus on steady progress, not quick fixes. Your recovery journey is guided with care, clarity, and consistency`,
   aboutUsDescription: `She started her career in Delhi's busy hospitals, spent several years running a private
               practice in Mumbai,Lucknow, and today She work with patients across India from her base in Haryana.
               Over 15+ years of experience of treating real people has taught her one thing: no two recoveries look the
@@ -41,7 +45,9 @@ export const AboutUsPoints = [
   {
     icon: Award,
     title: "Experience",
-    body: `${Constants.yearsExperience} years of hands-on experience in advanced physiotherapy and rehabilitation care. Successfully treating patients across orthopedic, neurological, and sports conditions in hospital and private practice settings. Trusted by 10,000+ patients, with a focus on personalized, result-driven recovery programs.`,
+    body: `${Constants.yearsExperience} years of hands-on experience in advanced physiotherapy and rehabilitation care. Successfully treating patients across orthopedic,
+     neurological, and sports conditions in hospital and private practice settings. Trusted by 95,000+ patients, with a focus on personalized, result-driven recovery 
+     programs.`,
   },
   {
     icon: MapPin,
@@ -181,7 +187,7 @@ export const Awards = [
     icon: Trophy,
     title: "Significant achievement Award - 2024",
     body: "Awarded for delivering consistent results and exceptional patient outcomes. A testament to commitment, precision, and quality in treatment.",
-    image: "/Award1.jpeg",
+    image: "/Award2.jpeg",
   },
   ];
 
@@ -285,7 +291,7 @@ export const Flyer = [
   },
   {
     title: "Significant achievement Award - 2024",
-    image: "https://instagram.fdel27-5.fna.fbcdn.net/v/t51.82787-15/654029464_17945637990131365_6874598526749182457_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=Mzg1NjIxNzUwNjAzMDExMjA5OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjkyOHgxMTUyLnNkci5DMyJ9&_nc_ohc=GZwHMUPbDewQ7kNvwGyb-pe&_nc_oc=Ado7_9NQAu7pPZYDEaE8G3C0dSgEI2xz20HkMwBzg8xriq0htUe41EfluIkce_cbNJ11wgkqqyCZht_K4TMe0JhY&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=instagram.fdel27-5.fna&_nc_gid=EYbn2aSfJHPbRPid_LtF4A&_nc_ss=7a22e&oh=00_Af3uN0J-02ZcmVYZ0zaZ01EQiRuPxYeVJ94_094dNknfdQ&oe=69F6DDED",    
+    image: "/flyer1.jpeg",    
   },
    {
     title: "Significant achievement Award - 2024",
@@ -293,7 +299,7 @@ export const Flyer = [
    },
    {
     title: "Significant achievement Award - 2024",
-    image: "https://instagram.fdel27-6.fna.fbcdn.net/v/t51.75761-15/484158114_17902491459131365_4313172289584159055_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=MzU4NTcxNTk5NjI0ODE4NDQ4OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjg5N3gxMTIyLnNkci5DMyJ9&_nc_ohc=3GWn2sviglUQ7kNvwHVPJB4&_nc_oc=Ado-14vqNRYB4abpnA5LS-1CR4K-Blh7rzIu1FBlv1mNlXTBKGzf2-Ny1eb6o2MDMIXt66pGBYS0fUtx7TwinhMY&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=instagram.fdel27-6.fna&_nc_gid=rFzaVkIcRFi7UtP6wkWPlA&_nc_ss=7a22e&oh=00_Af2WTbqtb51CWGmmTDQqaRbSW4KJxzg1IYOB3z80ykrHeg&oe=69F6E4D2",
+    image: "/flyer2.jpeg",
    },
    {
     title: "Significant achievement Award - 2024",
@@ -302,6 +308,73 @@ export const Flyer = [
    {
     title: "Significant achievement Award - 2024",
     image: "https://instagram.fdel27-6.fna.fbcdn.net/v/t51.75761-15/469743117_17891609130131365_3537935800891470275_n.jpg?stp=dst-jpg_e35_s720x720_tt6&_nc_cat=111&ig_cache_key=MzUyMTI3Mjc0NTI0ODY3ODcyNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTM4Mi5zZHIuQzMifQ%3D%3D&_nc_ohc=vdUugPHrR9YQ7kNvwFVgEo3&_nc_oc=AdpbPF9dU99a1UY_fb9pdII8Hn4IdkxLHONGz_N0iOhTsUQ2H8dSq2LOkqpOgvR0p-6rgVhUl0Ar9djqLA_BM8Cq&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=instagram.fdel27-6.fna&_nc_gid=Lc1LkRmaI3cQlk7GjbV5cg&_nc_ss=7a22e&oh=00_Af15bJIAuGjKya-iEHDdpxo_BntCxnmBAHtJsbVyoU6ZWg&oe=69F6ED5D",
+   },
+     {
+    title: "Significant achievement Award - 2024",
+    image: "/flyer3.jpeg",
+   },
+     {
+    title: "Significant achievement Award - 2024",
+    image: "/flyer4.jpeg",
+   },
+   {
+    title: "Significant achievement Award - 2024",
+    image: "/flyer5.jpeg",
+   },
+    {
+    title: "Significant achievement Award - 2024",
+    image: "/flyer6.jpeg",
+   },
+    {
+    title: "Significant achievement Award - 2024",
+    image: "/flyer7.jpeg",
+   },
+  ]
+
+  export const camp = [
+  {
+    title: "Nari Shakti Award - 2026",
+    image: "https://instagram.fdel27-5.fna.fbcdn.net/v/t51.82787-15/670055831_17950151877131365_6352349593450109145_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=Mzg3NzM2NzQ1ODYxNzcwODk5NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEzNjV4MTgyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=UGBA-UM-twEQ7kNvwE_5O2K&_nc_oc=Adp05pziUt_GrNLcCTcffh16klgpC6F1kZZtpjWcXHwnxZPd5QfSnYldPhBEGjFJiLWnaukSTqWBg_n9vHHtHPce&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=instagram.fdel27-5.fna&_nc_gid=yIE-yOfzYrroUEYpebNwag&_nc_ss=7a22e&oh=00_Af1J2ck0ETCF0tuuWoAbh6pm8_5-GzQ36Y_H528pCx313Q&oe=69F6CDAF",
+  },
+  {
+    title: "Significant achievement Award - 2024",
+    image: "/flyer1.jpeg",    
+  },
+   {
+    title: "Significant achievement Award - 2024",
+    image: "https://instagram.fdel27-4.fna.fbcdn.net/v/t51.82787-15/653903137_17945184465131365_512769113230541044_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzg1NDA0NjY4OTMxNzk0ODA3NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjExNTN4MTQzMi5zZHIuQzMifQ%3D%3D&_nc_ohc=TYB0m_3zbZYQ7kNvwGy_wIg&_nc_oc=AdrCmYgG4tb38AOPzCje6GbJfjBPEFaHYrgg2sFx8PTI3drZMV9M3AAnYnqDI157zHLzJ2PTKP-JT3TLCXW4xajn&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=instagram.fdel27-4.fna&_nc_gid=EYbn2aSfJHPbRPid_LtF4A&_nc_ss=7a22e&oh=00_Af0cmuB6PZfGGZX3U6lecN6S_Ng6T38vtKdJeJbJjFJLBA&oe=69F6C6EA",
+   },
+   {
+    title: "Significant achievement Award - 2024",
+    image: "/flyer2.jpeg",
+   },
+   {
+    title: "Significant achievement Award - 2024",
+    image: "https://instagram.fdel27-1.fna.fbcdn.net/v/t51.75761-15/469944014_17891608758131365_696599088056531736_n.jpg?stp=dst-jpg_e35_s720x720_tt6&_nc_cat=101&ig_cache_key=MzUyMTI3MTc2MzM1MzcwMjE2Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTM3My5zZHIuQzMifQ%3D%3D&_nc_ohc=u7GN8Mw7_AgQ7kNvwEZEpbX&_nc_oc=Ado0KE4tBCANLJelGY6JFuC8oyR4N4a8yJTJVjSXHwanP85FrgwjNr_TnhEpLxllyzwTyCCcF4DyRd9k2wcIuMAv&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=instagram.fdel27-1.fna&_nc_gid=Lc1LkRmaI3cQlk7GjbV5cg&_nc_ss=7a22e&oh=00_Af36msyPo4ObwZB1OH1XfZkMkKYokVeZXavQOTkrqYMkcg&oe=69F6ED9A",
+   },
+   {
+    title: "Significant achievement Award - 2024",
+    image: "https://instagram.fdel27-6.fna.fbcdn.net/v/t51.75761-15/469743117_17891609130131365_3537935800891470275_n.jpg?stp=dst-jpg_e35_s720x720_tt6&_nc_cat=111&ig_cache_key=MzUyMTI3Mjc0NTI0ODY3ODcyNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTM4Mi5zZHIuQzMifQ%3D%3D&_nc_ohc=vdUugPHrR9YQ7kNvwFVgEo3&_nc_oc=AdpbPF9dU99a1UY_fb9pdII8Hn4IdkxLHONGz_N0iOhTsUQ2H8dSq2LOkqpOgvR0p-6rgVhUl0Ar9djqLA_BM8Cq&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=instagram.fdel27-6.fna&_nc_gid=Lc1LkRmaI3cQlk7GjbV5cg&_nc_ss=7a22e&oh=00_Af15bJIAuGjKya-iEHDdpxo_BntCxnmBAHtJsbVyoU6ZWg&oe=69F6ED5D",
+   },
+     {
+    title: "Significant achievement Award - 2024",
+    image: "/flyer3.jpeg",
+   },
+     {
+    title: "Significant achievement Award - 2024",
+    image: "/flyer4.jpeg",
+   },
+   {
+    title: "Significant achievement Award - 2024",
+    image: "/flyer5.jpeg",
+   },
+    {
+    title: "Significant achievement Award - 2024",
+    image: "/flyer6.jpeg",
+   },
+    {
+    title: "Significant achievement Award - 2024",
+    image: "/flyer7.jpeg",
    },
   ]
 
@@ -319,7 +392,7 @@ export const Faqs = [
     a: "",
   },
   {
-    q: "How do I know if I need physiotherapy?",
+    q: "What is the educational qualification of Dr.Shivali?",
     a: "",
   },
   {
@@ -339,7 +412,7 @@ export const Faqs = [
     a: "",
   },
   {
-    q: "How long does a typical physiotherapy session last?",
+    q: "How many years of experiences does she have in her field?",
     a: "",
   },
   {
@@ -359,15 +432,15 @@ export const Faqs = [
     a: "",
   },
   {
-    q: "What is the difference between physiotherapy and chiropractic care?",
+    q: "What does her specialize in ?",
     a: "",
   },
   {
-    q: "How many sessions will I need to see improvements in my condition?",
+    q: "is Dr.Shivali available on Sunday",
     a: "",
   },
   {
-    q: "Can physiotherapy help with chronic pain management?",
+    q: "What all special techniques are provided at the clinic?",
     a: "",
   },
 ];

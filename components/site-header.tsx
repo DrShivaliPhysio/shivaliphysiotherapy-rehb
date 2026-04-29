@@ -29,6 +29,8 @@ export function SiteHeader() {
           <span className="flex flex-col leading-tight">
             <span className="font-serif text-base font-medium text-foreground">{Constants.doctorName}</span>
             <span className="text-[11px] text-muted-foreground">{Constants.qualifications}</span>
+            <span className="text-[11px] text-muted-foreground">{Constants.qualifications1}</span>
+            <span className="text-[11px] text-muted-foreground">{Constants.qualifications2}</span>
           </span>
         </Link>
 
@@ -46,7 +48,7 @@ export function SiteHeader() {
 
         <div className="hidden md:block">
           <Button asChild size="sm" className="rounded-full px-5">
-            <a href="#book">Book Appointment</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScRSWRfnJEsaEUr6a2m3WK-A2Mgn2QLGQvM-qWodkUF56-_dw/viewform">Book Appointment</a>
           </Button>
         </div>
 
@@ -79,7 +81,7 @@ export function SiteHeader() {
             </a>
           ))}
           <Button asChild size="sm" className="mt-2 w-full rounded-full">
-            <a href="#book" onClick={() => setOpen(false)}>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScRSWRfnJEsaEUr6a2m3WK-A2Mgn2QLGQvM-qWodkUF56-_dw/viewform" onClick={() => setOpen(false)}>
               Book Appointment
             </a>
           </Button>

@@ -41,7 +41,7 @@ export function HeroSection() {
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button asChild size="lg" className="rounded-full px-6">
-              <a href="#book">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLScRSWRfnJEsaEUr6a2m3WK-A2Mgn2QLGQvM-qWodkUF56-_dw/viewform">
                 <Calendar className="h-4 w-4" />
                 Book Appointment
               </a>
