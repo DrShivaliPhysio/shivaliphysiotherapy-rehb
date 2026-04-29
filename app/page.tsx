@@ -12,6 +12,8 @@ import QuickActions from "@/components/QuickActions"
 import { SpecialServicesSection } from "@/components/Special-Services"
 import { AwardsSection } from "@/components/Awards"
 import { FlyerSection } from "@/components/Flyer"
+import { CampSection} from "@/components/camp"
+
 
 export default function Page() {
   return (
@@ -28,6 +30,7 @@ export default function Page() {
         <InstagramSection />
         <AwardsSection/>
         <FlyerSection/>
+        <CampSection/>
         <FaqSection />
       </main>
       <SiteFooter />

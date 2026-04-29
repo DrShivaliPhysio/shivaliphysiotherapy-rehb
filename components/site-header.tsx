@@ -9,10 +9,15 @@ import { Constants } from "@/lib/constants"
 import { constants } from "buffer"
 
 const navLinks = [
+  { label: "Home", href: "#quickaction" },
   { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
+  { label: "Services", href: "#services-section" },
+  { label: "Special Services", href: "#special-services" },
   { label: "Who It's For", href: "#audience" },
   { label: "Reviews", href: "#testimonials" },
+  { label: "Awards", href: "#Awards" },
+  { label: "Flyers", href: "#flyer" },  
+   { label: "Camps", href: "#camps" },  
   { label: "FAQ", href: "#faq" },
 ]
 
@@ -21,7 +26,7 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-40 w-full border-b border-border/60 bg-background/85 backdrop-blur-md">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 md:px-6">
+      <div className="mx-auto flex h-16 w-full items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2.5">
           <span className="flex h-9 w-9 items-center justify-center rounded-full bg-secondary">
             <Activity className="h-5 w-5 text-primary" aria-hidden />

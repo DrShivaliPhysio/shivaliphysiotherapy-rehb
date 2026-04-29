@@ -4,8 +4,8 @@ import { Laptop2, HeartPulse, Trophy, UserRound, Heart, CircleDot, Waves, Rotate
 
 export const Constants = {
   doctorName: "Dr. Shivali Gupta (P.T)",
-  qualifications: "Consultant Physiotherapist | MPT (Neuro) | MIAP",
-  qualifications1: "DNHE | PDHHM | CKT | CCT | CDNT | CNDT | MFR | CCE",
+  qualifications: "Consultant Physiotherapist | MPT(Neuro) | MIAP",
+  qualifications1: "DNHE | PGDHHM | CKT | CCT | CDNT | CNDT | MFR | CCE",
   qualifications2: "Yoga Wellness Instructor | Certified in Hydrotherapy",
   heroDescription: `One-on-one online consultations and personalized recovery plans designed around your body, your pace, and your daily life. Fifteen plus years of
    patient-first care — from Delhi to Mumbai, Lucknow & now serving patients from Haryana & Pan-India.`,
@@ -334,48 +334,32 @@ export const Flyer = [
   export const camp = [
   {
     title: "Nari Shakti Award - 2026",
-    image: "https://instagram.fdel27-5.fna.fbcdn.net/v/t51.82787-15/670055831_17950151877131365_6352349593450109145_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=Mzg3NzM2NzQ1ODYxNzcwODk5NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEzNjV4MTgyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=UGBA-UM-twEQ7kNvwE_5O2K&_nc_oc=Adp05pziUt_GrNLcCTcffh16klgpC6F1kZZtpjWcXHwnxZPd5QfSnYldPhBEGjFJiLWnaukSTqWBg_n9vHHtHPce&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=instagram.fdel27-5.fna&_nc_gid=yIE-yOfzYrroUEYpebNwag&_nc_ss=7a22e&oh=00_Af1J2ck0ETCF0tuuWoAbh6pm8_5-GzQ36Y_H528pCx313Q&oe=69F6CDAF",
+    image: "/camp1.jpeg",
   },
   {
     title: "Significant achievement Award - 2024",
-    image: "/flyer1.jpeg",    
+    image: "/camp2.jpeg",    
   },
    {
     title: "Significant achievement Award - 2024",
-    image: "https://instagram.fdel27-4.fna.fbcdn.net/v/t51.82787-15/653903137_17945184465131365_512769113230541044_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzg1NDA0NjY4OTMxNzk0ODA3NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjExNTN4MTQzMi5zZHIuQzMifQ%3D%3D&_nc_ohc=TYB0m_3zbZYQ7kNvwGy_wIg&_nc_oc=AdrCmYgG4tb38AOPzCje6GbJfjBPEFaHYrgg2sFx8PTI3drZMV9M3AAnYnqDI157zHLzJ2PTKP-JT3TLCXW4xajn&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=instagram.fdel27-4.fna&_nc_gid=EYbn2aSfJHPbRPid_LtF4A&_nc_ss=7a22e&oh=00_Af0cmuB6PZfGGZX3U6lecN6S_Ng6T38vtKdJeJbJjFJLBA&oe=69F6C6EA",
+    image: "/camp3.jpeg",
    },
    {
     title: "Significant achievement Award - 2024",
-    image: "/flyer2.jpeg",
+    image: "/camp4.jpeg",
    },
    {
     title: "Significant achievement Award - 2024",
-    image: "https://instagram.fdel27-1.fna.fbcdn.net/v/t51.75761-15/469944014_17891608758131365_696599088056531736_n.jpg?stp=dst-jpg_e35_s720x720_tt6&_nc_cat=101&ig_cache_key=MzUyMTI3MTc2MzM1MzcwMjE2Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTM3My5zZHIuQzMifQ%3D%3D&_nc_ohc=u7GN8Mw7_AgQ7kNvwEZEpbX&_nc_oc=Ado0KE4tBCANLJelGY6JFuC8oyR4N4a8yJTJVjSXHwanP85FrgwjNr_TnhEpLxllyzwTyCCcF4DyRd9k2wcIuMAv&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=instagram.fdel27-1.fna&_nc_gid=Lc1LkRmaI3cQlk7GjbV5cg&_nc_ss=7a22e&oh=00_Af36msyPo4ObwZB1OH1XfZkMkKYokVeZXavQOTkrqYMkcg&oe=69F6ED9A",
+    image: "/camp4.jpeg",
    },
    {
     title: "Significant achievement Award - 2024",
-    image: "https://instagram.fdel27-6.fna.fbcdn.net/v/t51.75761-15/469743117_17891609130131365_3537935800891470275_n.jpg?stp=dst-jpg_e35_s720x720_tt6&_nc_cat=111&ig_cache_key=MzUyMTI3Mjc0NTI0ODY3ODcyNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTM4Mi5zZHIuQzMifQ%3D%3D&_nc_ohc=vdUugPHrR9YQ7kNvwFVgEo3&_nc_oc=AdpbPF9dU99a1UY_fb9pdII8Hn4IdkxLHONGz_N0iOhTsUQ2H8dSq2LOkqpOgvR0p-6rgVhUl0Ar9djqLA_BM8Cq&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=instagram.fdel27-6.fna&_nc_gid=Lc1LkRmaI3cQlk7GjbV5cg&_nc_ss=7a22e&oh=00_Af15bJIAuGjKya-iEHDdpxo_BntCxnmBAHtJsbVyoU6ZWg&oe=69F6ED5D",
+    image: "/camp5.jpeg",
    },
      {
     title: "Significant achievement Award - 2024",
-    image: "/flyer3.jpeg",
-   },
-     {
-    title: "Significant achievement Award - 2024",
-    image: "/flyer4.jpeg",
-   },
-   {
-    title: "Significant achievement Award - 2024",
-    image: "/flyer5.jpeg",
-   },
-    {
-    title: "Significant achievement Award - 2024",
-    image: "/flyer6.jpeg",
-   },
-    {
-    title: "Significant achievement Award - 2024",
-    image: "/flyer7.jpeg",
-   },
+    image: "/camp6.jpeg",
+   },     
   ]
 
 export const Faqs = [

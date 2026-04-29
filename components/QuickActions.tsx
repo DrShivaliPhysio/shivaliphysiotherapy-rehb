@@ -4,7 +4,7 @@ import { Clock, Mail, Phone } from 'lucide-react'
 
 const QuickActions = () => {
   return (
-    <section className="bg-secondary/40 py-2">
+    <section id="quickaction" className="bg-secondary/40 py-2">
       <div className="mx-auto w-full px-5 md:px-7 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
 
         {/* Call */}
@@ -75,7 +75,7 @@ const QuickActions = () => {
             <div>
               <div className="text-xs text-muted-foreground leading-none">Opening Hours</div>
               <div className="text-sm font-semibold text-foreground leading-tight">
-                Mon–Fri 10AM–7PM
+                Mon–Sat 10AM–7PM
               </div>
             </div>
           </div>
