@@ -73,7 +73,7 @@ export function HeroSection() {
         <div className="relative mx-auto w-full max-w-md lg:max-w-none">
           <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] border border-border bg-secondary shadow-[0_20px_60px_-30px_rgb(58_122_140_/_0.35)]">
             <Image
-              src="/doctor-hero.jpg"
+              src="/doctor-hero.jpeg"
               alt="Dr. Aanya Verma, physiotherapist, smiling warmly"
               fill
               priority

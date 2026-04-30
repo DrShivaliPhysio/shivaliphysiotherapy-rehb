@@ -12,7 +12,7 @@ export function AboutSection() {
           <div className="relative">
             <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] border border-border">
               <Image
-                src="/about-consultation.jpg"
+                src="/about-consultation.jpeg"
                 alt="Dr. Shivali Gupta during an online physiotherapy consultation"
                 fill
                 sizes="(min-width: 1024px) 480px, 90vw"
