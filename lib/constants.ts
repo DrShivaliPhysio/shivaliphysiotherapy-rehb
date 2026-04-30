@@ -11,7 +11,7 @@ export const Constants = {
    patient-first care — from Delhi to Mumbai, Lucknow & now serving patients from Haryana & Pan-India.`,
   contactNo: "+919324843597",
   yearsExperience: "15+",
-  patientsTreated: "95,000+",
+  patientsTreated: "25,000+",
   patientRating: "4.9/5",
   availableSlots: "4",
   instaHandle: "@drshivali_physiotherapyclinic",
@@ -20,7 +20,7 @@ export const Constants = {
   youtubeLink: "https://youtube.com/@dr.shivali.gupta.physio?si=njb8Y2shQ-bOqxq6",
   linkedin: "https://www.linkedin.com/in/docshivaligupta?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
   email: "Physiodrshivali@gmail.com",
-  aboutUsMessage: `Recovery shouldn't feel rushed. I take the time to understand your story before building your plan. Because every body is different, 
+  aboutUsMessage: `Recovery shouldn't feel rushed. We take the time to understand your story before building your plan. Because every body is different, 
   every treatment should be too. Together, we focus on steady progress, not quick fixes. Your recovery journey is guided with care, clarity, and consistency`,
   aboutUsDescription: `She started her career in Delhi's busy hospitals, spent several years running a private
               practice in Mumbai,Lucknow, and today She work with patients across India from her base in Haryana.
@@ -41,13 +41,13 @@ export const AboutUsPoints = [
   {
     icon: GraduationCap,
     title: "Qualifications",
-    body: "MPT — Neuro, Diploma in Nutrition & Health Education, Post Graduate Diploma in Hospital & Health Care Management, Yoga Wellness Instructor, Cert. in Dry Needling, Cupping Therapy, Hydrotherapy, Computer Ergonomics Assessment & Solution, Kinesiology Taping."
+    body: "MPT — Neuro, Diploma in Nutrition & Health Education, Post Graduate Diploma in Hospital & Health Care Management, Yoga Wellness Instructor, Cert. in Dry Needling, Cupping Therapy, Hydrotherapy, Computer Ergonomics Assessment, Kinesiology Taping."
   },
   {
     icon: Award,
     title: "Experience",
     body: `${Constants.yearsExperience} years of hands-on experience in advanced physiotherapy and rehabilitation care. Successfully treating patients across orthopedic,
-     neurological, and sports conditions in hospital and private practice settings. Trusted by 95,000+ patients, with a focus on personalized, result-driven recovery 
+     neurological, and sports conditions in hospital and private practice settings. Trusted by 25,000+ patients, with a focus on personalized, result-driven recovery 
      programs.`,
   },
   {
@@ -142,12 +142,7 @@ export const Services = [
     icon: Footprints,
     title: "Balance & Gait Training",
     body: "Fall prevention. Walking pattern correction",
-  }, {
-    icon: RotateCcw,
-    title: "Vestibular Rehabilitation (Vertigo)",
-    body: "Dizziness & vertigo treatment. Inner ear balance therapy.",
   },
-
 ];
 
 export const SpecialServices = [
@@ -310,10 +305,10 @@ export const Flyer = [
     title: "Significant achievement Award - 2024",
     image: "/flyer4.jpeg",
   },
-  {
-    title: "Significant achievement Award - 2024",
-    image: "/flyer5.jpeg",
-  },
+  // {
+  //   title: "Significant achievement Award - 2024",
+  //   image: "/flyer5.jpeg",
+  // },
   {
     title: "Significant achievement Award - 2024",
     image: "/flyer6.jpeg",
@@ -358,63 +353,47 @@ export const Faqs = [
   },
   {
     q: "At What time can i visit the clinic?",
-    a: "",
-  },
-  {
-    q: "Is Telephysio only a virtual physiotherapy service?",
-    a: "",
+    a: "Our clinic is open from 10:00 AM – 7:00 PM (Monday to Saturday). Appointments are recommended for a smooth experience.",
   },
   {
     q: "What is the educational qualification of Dr.Shivali?",
-    a: "",
+    a: "Dr. Shivali holds a Master’s degree in Physiotherapy (MPT – Neuro) along with multiple certifications in advanced rehabilitation techniques, with over 16+ years of clinical experience.",
   },
   {
     q: "Is physiotherapy covered by my insurance?",
-    a: "",
+    a: `Physiotherapy coverage depends on your specific insurance policy. Many health insurance plans do cover physiotherapy, especially when it is prescribed by a doctor for conditions like injury, surgery recovery, or chronic pain. However, the number of sessions, reimbursement amount, and claim process can vary.It’s best to: Check with your insurance provider about coverage details. Confirm if a doctor’s referral is required. Ask about reimbursement limits or network clinics.At our clinic, we can assist you with invoices and documentation needed for insurance claims.`,
   },
   {
     q: "How do I book an appointment with a physiotherapist?",
-    a: "",
-  },
-  {
-    q: "What should I expect during my first physiotherapy session?",
-    a: "",
+    a: "You can easily book an appointment by: Calling or WhatsApping us Filling out the appointment form on our website Visiting the clinic directly",
   },
   {
     q: "Can I choose to have in-person or telephysiotherapy sessions?",
-    a: "",
+    a: "Yes, we offer both in-person clinic sessions and online telephysiotherapy consultations, based on your convenience and condition.",
   },
   {
     q: "How many years of experiences does she have in her field?",
-    a: "",
+    a: "Dr. Shivali has 16+ years of experience in physiotherapy and rehabilitation, specializing in patient-centered care and evidence-based treatment.",
   },
   {
     q: "Will I receive personalized exercises and treatment plans?",
-    a: "",
+    a: "Absolutely. Every patient receives a customized treatment plan and exercise program tailored to their specific condition and recovery goals.",
   },
   {
     q: "Are your physiotherapists licensed and experienced?",
-    a: "",
+    a: "Yes, all our physiotherapists are qualified, licensed professionals with relevant certifications and clinical experience, ensuring safe and effective treatment for every patient.",
   },
   {
     q: "Can physiotherapy help with sports injuries and performance enhancement?",
-    a: "",
-  },
-  {
-    q: "Do you provide home-based physiotherapy services?",
-    a: "",
+    a: "Yes, physiotherapy plays a crucial role in both recovery and performance. It helps reduce pain, restore mobility, improve strength, and prevent re-injury. For  athletes and active individuals, customized rehab programs also enhance flexibility, endurance, and overall performance.",
   },
   {
     q: "What does her specialize in ?",
-    a: "",
-  },
-  {
-    q: "is Dr.Shivali available on Sunday",
-    a: "",
+    a: "She specializes in neuro rehabilitation, pain management, posture correction, ergonomics, and functional movement training. Her approach focuses on identifying the root cause and providing personalized treatment for long-term recovery.",
   },
   {
     q: "What all special techniques are provided at the clinic?",
-    a: "",
+    a: "The clinic offers a range of advanced physiotherapy techniques, including: Dryneedling Therapy, ⁠Cupping Therapy, Myofascial Release (MFR), Neuro Development Techniques, Posture & Ergonomic Correction, Hydrotherapy, Kinesio Taping, Exercise Rehabilitation Programs, Pain Management Modalities",
   },
 ];
 

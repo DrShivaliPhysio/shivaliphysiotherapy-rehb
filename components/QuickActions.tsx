@@ -10,7 +10,7 @@ const QuickActions = () => {
         {/* Call */}
         <a 
           href={`tel:${Constants.contactNo}`}
-          className="flex h-full w-full justify-between items-start rounded-2xl border border-border bg-background px-6 py-5 transition-all hover:border-primary/40 hover:shadow-md hover:-translate-y-[2px]"
+          className="flex h-full w-full justify-between items-start rounded-2xl border border-border bg-background px-6 py-5 transition-all hover:border-primary hover:shadow-md hover:-translate-y-[2px]"
         >
           <div className="flex items-center gap-3">
             <span className="flex h-10 w-9 shrink-0 items-center justify-center rounded-full bg-secondary">
@@ -29,7 +29,7 @@ const QuickActions = () => {
         {/* WhatsApp */}
         <a
           href={`https://wa.me/${Constants.contactNo}`}
-          className="flex h-full w-full justify-between items-start rounded-2xl border border-border bg-background px-6 py-5 transition-all hover:border-primary/40 hover:shadow-md hover:-translate-y-[2px]"
+          className="flex h-full w-full justify-between items-start rounded-2xl border border-border bg-background px-6 py-5 transition-all hover:border-primary hover:shadow-md hover:-translate-y-[2px]"
         >
           <div className="flex items-center gap-3">
             <span className="flex h-10 w-9 shrink-0 items-center justify-center rounded-full bg-secondary">
@@ -50,7 +50,7 @@ const QuickActions = () => {
         {/* Email */}
         <a
           href={`mailto:${Constants.email}`}
-          className="flex h-full w-full justify-between items-start rounded-2xl border border-border bg-background px-6 py-5 transition-all hover:border-primary/40 hover:shadow-md hover:-translate-y-[2px]"
+          className="flex h-full w-full justify-between items-start rounded-2xl border border-border bg-background px-6 py-5 transition-all hover:border-primary hover:shadow-md hover:-translate-y-[2px]"
         >
           <div className="flex items-center gap-3">
             <span className="flex h-10 w-9 shrink-0 items-center justify-center rounded-full bg-secondary">
@@ -67,7 +67,7 @@ const QuickActions = () => {
         </a>
 
         {/* Opening Hours */}
-        <div className="flex h-full w-full justify-between items-start rounded-2xl border border-border bg-background px-6 py-5">
+        <div className="flex h-full w-full justify-between items-start rounded-2xl border border-border bg-background px-6 py-5 transition-all hover:border-primary hover:shadow-md hover:-translate-y-[2px]">
           <div className="flex items-center gap-3">
             <span className="flex h-10 w-9 shrink-0 items-center justify-center rounded-full bg-secondary">
               <Clock className="h-4 w-4 text-primary" />
@@ -82,7 +82,7 @@ const QuickActions = () => {
         </div>
 
         {/* Location */}
-        <div className="flex h-full w-full justify-between items-start rounded-2xl border border-border bg-background px-6 py-5">
+        <div className="flex h-full w-full justify-between items-start rounded-2xl border border-border bg-background px-6 py-5 transition-all hover:border-primary hover:shadow-md hover:-translate-y-[2px]">
           <div className="flex items-center gap-3">
             <span className="flex h-10 w-9 shrink-0 items-center justify-center rounded-full bg-secondary">
               <Clock className="h-4 w-4 text-primary" />

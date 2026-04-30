@@ -10,7 +10,7 @@ export function FlyerSection() {
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         <div className="flex flex-col items-start gap-4 md:flex-row md:items-end md:justify-between">
           <div className="max-w-2xl">
-            <span className="text-xs font-medium uppercase tracking-[0.14em] text-primary">Flyer</span>
+            <span className="text-xs font-medium uppercase tracking-[0.14em] text-primary">Our Workshops & Webinars</span>
             <h2 className="mt-3 text-pretty font-serif text-3xl font-medium leading-tight text-foreground md:text-4xl">
               Clear, trusted care — shared in a simple way.
             </h2>
