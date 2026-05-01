@@ -19,7 +19,7 @@ export function AboutSection() {
                 className="object-cover h-[90%]"
               />
             </div>
-            <div className="absolute -bottom-6 left-6 right-6 rounded-2xl border border-border bg-background p-5 shadow-sm md:-bottom-8 md:left-8 md:right-12">
+            <div className="md:absolute mt-10 md:mt-0 md:-bottom-6 left-6 right-6 rounded-2xl border border-border bg-background p-5 shadow-sm md:-bottom-8 md:left-8 md:right-12">
               <div className="flex items-center gap-3">
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-secondary font-serif text-primary">
                   SG

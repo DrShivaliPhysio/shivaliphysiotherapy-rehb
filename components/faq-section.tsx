@@ -2,6 +2,8 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Faqs } from "@/lib/constants"
 
 export function FaqSection() {
+  const leftFaqs = Faqs.filter((_, i) => i % 2 === 0);
+const rightFaqs = Faqs.filter((_, i) => i % 2 !== 0);
   return (
     <section id="faq" className="bg-background/40 py-10">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
@@ -19,22 +21,47 @@ export function FaqSection() {
           </p>
         </div>
 
-        <Accordion type="multiple" className="mt-10 grid w-full gap-y-4 gap-x-10 sm:grid-cols-2">
-          {Faqs.map((f, i) => (
-            <AccordionItem
-              key={i}
-              value={`item-${i}`}
-              className="rounded-2xl border border-border bg-background px-5 data-[state=open]:shadow-[0_10px_30px_-20px_rgb(58_122_140_/_0.2)]"
-            >
-              <AccordionTrigger className="py-5 text-left text-base font-medium text-foreground hover:no-underline">
-                {f.q}
-              </AccordionTrigger>
-              <AccordionContent className="pb-5 pr-6 text-sm leading-relaxed text-muted-foreground">
-                {f.a}
-              </AccordionContent>
-            </AccordionItem>
-          ))}
-        </Accordion>
+        <div className="mt-10 grid gap-6 md:grid-cols-2">
+
+          {/* Left Column */}
+          <Accordion type="multiple" className="space-y-4">
+            {leftFaqs.map((f, i) => (
+              <AccordionItem
+                key={i}
+                value={`left-${i}`}
+                className="rounded-2xl border border-border bg-background px-5"
+              >
+                <AccordionTrigger className="py-5 text-left md:h-22 text-base font-medium">
+                  {f.q}
+                </AccordionTrigger>
+
+                <AccordionContent className="pb-5 text-sm text-muted-foreground">
+                  {f.a}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+
+          {/* Right Column */}
+          <Accordion type="multiple" className="space-y-4">
+            {rightFaqs.map((f, i) => (
+              <AccordionItem
+                key={i}
+                value={`right-${i}`}
+                className="rounded-2xl border border-border bg-background px-5"
+              >
+                <AccordionTrigger className="py-5 md:h-22 text-left text-base font-medium">
+                  {f.q}
+                </AccordionTrigger>
+
+                <AccordionContent className="pb-5 text-sm text-muted-foreground">
+                  {f.a}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+
+        </div>
       </div>
     </section>
   )

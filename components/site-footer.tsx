@@ -3,7 +3,7 @@ import { Activity, Mail, Phone, MapPin, Instagram, Facebook, Linkedin, Youtube }
 
 export function SiteFooter() {
   return (
-    <footer id="contact" className="border-t border-border bg-secondary">
+    <footer id="contact" className="border-t border-border ">
       {/* Contact CTA band */}
       <div id="book" className="bg-secondary/60">
         <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 md:grid-cols-2 md:px-6">
@@ -75,7 +75,7 @@ export function SiteFooter() {
       </div>
 
       {/* Main footer */}
-      <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 md:grid-cols-[1.4fr_1fr_1fr] md:px-6">
+      <div className="mx-auto bg-background grid max-w-6xl gap-10 px-4 py-14 md:grid-cols-[1.4fr_1fr_1fr] md:px-6">
         <div>
           <div className="flex items-center gap-2.5">
             <span className="flex h-9 w-9 items-center justify-center rounded-full bg-secondary">
