@@ -6,7 +6,7 @@ export const Constants = {
   doctorName: "Dr. Shivali Gupta (P.T)",
   qualifications: "Consultant Physiotherapist | MPT(Neuro) | MIAP",
   qualifications1: "DNHE | PGDHHM | CKT | CCT | CDNT | CNDT | MFR",
-  qualifications2: "Cert. in  Computer Ergonomics | Yoga Wellness Instructor | Cert. in Hydrotherapy",
+  qualifications2: "Cert. in  Computer Ergonomics | Cert. in Hydrotherapy | Cert. in Hydrotherapy Yoga Wellness Instructor",
   heroDescription: `One-on-one online consultations and personalized recovery plans designed around your body, your pace, and your daily life. Fifteen plus years of
    patient-first care — from Delhi to Mumbai, Lucknow & now serving patients from Haryana & Pan-India.`,
   contactNo: "+919324843597",
@@ -41,7 +41,7 @@ export const AboutUsPoints = [
   {
     icon: GraduationCap,
     title: "Qualifications",
-    body: "MPT — Neuro, Diploma in Nutrition & Health Education, Post Graduate Diploma in Hospital & Health Care Management, Yoga Wellness Instructor, Cert. in Dry Needling, Cupping Therapy, Hydrotherapy, Computer Ergonomics Assessment, Kinesiology Taping."
+    body: "MPT — Neuro, Diploma in Nutrition & Health Education, Post Graduate Diploma in Hospital & Health Care Management, Yoga Wellness Instructor, Cert. in Dry Needling, Cupping Therapy, Hydrotherapy, Computer Ergonomics Assessment & Kinesiology Taping."
   },
   {
     icon: Award,
