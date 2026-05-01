@@ -14,10 +14,11 @@ const navLinks = [
   { label: "Services", href: "#services-section" },
   { label: "Special Services", href: "#special-services" },
   { label: "Who It's For", href: "#audience" },
-  { label: "Reviews", href: "#testimonials" },
+  { label: "Insta Posts", href: "#InstagramSection" },
   { label: "Awards", href: "#Awards" },
   { label: "Flyers", href: "#flyer" },
-  { label: "Camps", href: "#camp" },
+  { label: "Camps", href: "#camp" },  
+  { label: "Reviews", href: "#testimonials" },  
   { label: "FAQ", href: "#faq" },
 ]
 

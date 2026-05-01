@@ -19,7 +19,7 @@ export function InstagramSection() {
 
 
   return (
-    <section className="bg-background py-10">
+    <section id="InstagramSection" className="bg-secondary py-10">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         <div className="flex flex-col items-start justify-between gap-4 md:flex-row md:items-end">
           <div>

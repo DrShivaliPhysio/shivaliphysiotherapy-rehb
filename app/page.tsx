@@ -26,11 +26,12 @@ export default function Page() {
         <ServicesSection />
         <SpecialServicesSection/>
         <AudienceSection />
-        <TestimonialsSection />
+        
         <InstagramSection />
         <AwardsSection/>
         <FlyerSection/>
         <CampSection/>
+        <TestimonialsSection />
         <FaqSection />
       </main>
       <SiteFooter />

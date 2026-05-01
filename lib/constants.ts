@@ -235,18 +235,21 @@ export const Reviews = [
   {
     name: "Akshay Sinha",
     role: "Lucknow · ",
+    starts: "★★★★★",
     review:
       "Dr Shivali Is an exceptional professional. She demonstrated remarkable empathy and gave full attention to my specific needs, which resulted in a truly customized treatment plan. What truly sets her apart is her focus on long-term, sustainable solutions. Not only did she help me relieve my pain, but she also provided invaluable advice for overall healthy living. Her expertise was evident, and her consistent encouragement empowered me to diligently work on my exercises, leading to significant improvements in my core strength and overall recovery. I'm very grateful for her comprehensive and thoughtful care.",
   },
   {
     name: "Sarika Gautam",
     role: "Lucknow · Chronic Pain",
+    starts: "★★★★★",
     review:
       "Dr. Shivali's clinic is a rehabilitation centre, providing perfect healthcare that improves mobility. Due to her perfect identification of my pain, I got relief from chronic pain. Her therapy and exercise help with muscle strength, and prevent bone stiffness. My session of physiotherapy with her enhances my quality of life.",
   },
   {
     name: "Aman Mohan Mishra",
     role: "Lucknow · ",
+    starts: "★★★★★",
     review:
       `A Life Saver! 
       Dr. Shivali and her clinic have truly been a life saviour for me. I was struggling with severe occipital-cervical pain, frequent migraines, and intense back muscle spasms. Her treatment not only provided relief but helped me recover in a way that felt holistic and sustainable. What stood out to me was her calm and kind approach—she genuinely listens, explains the root causes clearly, and creates a treatment plan that is both effective and affordable. Thanks to Dr. Shivali, I’m deeply grateful for her dedication and highly recommend her clinic to anyone dealing with chronic pain or physical rehabilitation needs.`,
@@ -254,14 +257,91 @@ export const Reviews = [
   {
     name: "Vanchhit Pratap Singh",
     role: "Lucknow · ",
+    starts: "★★★★★",
     review:
       `I had a great experience with Dr Shivali . She is professional, knowledgeable, and truly attentive to my needs. The treatment plan was well-explained and tailored specifically for my condition. Thanks for her guidance and care, I’ve seen significant improvement and feel much better now`,
   },
   {
     name: "Praveen Kumar Yaadav",
     role: "Lucknow · ",
+    starts: "★★★★★",
     review:
       `I felt that Dr Shivali truly listened to my concerns and tailored the treatment to my specific needs. The clinic was clean and well-equipped. I was impressed by Dr.Shivali's expertise in physiotherapy.`,
+  },
+  {
+    name: "Raksha Gupta",
+    role: "Lucknow · ",
+    starts: "★★★★★",
+    review:
+      `I had the pleasure of receiving physiotherapy services from Dr. Shivali, and I am extremely delighted with the results. I was facing spondylosis, a challenging health issue, and thanks to Dr. Shivali's expertise and dedication, I am now fully relieved.
+      She demonstrated exceptional skills in diagnosing and treating my spondylosis. The personalized treatment plan and exercises tailored to my needs were highly effective. What sets her apart is the genuine care and concern she showed throughout my sessions.
+      The friendly and welcoming atmosphere during my visits made me feel comfortable, and She was always patient in answering my questions and explaining the treatment process.
+      I cannot thank her enough for the outstanding care and support I received. Thanks to her guidance, I'm back to my normal self, and I feel healthier and happier.
+      I wholeheartedly recommend Dr. Shivali's services to anyone dealing with spondylosis or in need of physiotherapy. She is truly an asset to her profession, and I'm grateful for the positive impact she's had on my life.
+      Thank you, Dr. Shivali, for your exceptional services in treating my spondylosis. Wishing you continued success in your career.`,
+  },
+  {
+    name: "Hamarna Marolia",
+    role: "Lucknow · ",
+    starts: "★★★★★",
+    review:
+      `I underwent ACL surgery and had the privilege of being coached Dr. Shivali for my rehabilitation. Her expertise and personalized approach made the recovery process smooth and effective.
+      Dr. Shivali's guidance was instrumental in my post-surgery journey, and her tailored physiotherapy sessions were precisely what I needed. She is highly skilled, compassionate, creating a supportive environment that significantly contributed to my healing.
+      I am grateful for the outstanding care provided by Dr. Shivali, and I highly recommend her to anyone in need of rehabilitation.`,
+  },
+  {
+    name: "Prasanna Sarwate",
+    role: "Lucknow · ",
+    starts: "★★★★★",
+    review:
+      `Thanks Dr. for your commitment and the way you treated my mother, superb care and personal service with high level of professionalism. I would 100per recommend her who is in need.`,
+  },
+  {
+    name: "Swapneil Thakur",
+    role: "Lucknow · ",
+    starts: "★★★★★",
+    review:
+      `She has great knowledge of the body injuried. She helped me recover from many injuries likw tennis elbow, knee ligament tear, miniscus tear and muscles tear.`,
+  },
+  {
+    name: "Chhaye Nakhe",
+    role: "Lucknow · ",
+    starts: "★★★★★",
+    review:
+      `My mother-in-law was treated by Dr. Shivali after her knee replacement operation of both the legs at the same time. Dr. Shivali did an excellent job.
+
+I was suffering from Tennis Elbow problem. Dr. Shivali's excercises helped me to get rid of the severe pain.
+
+Highly recommended!!!`,
+  },
+  {
+    name: "Hetal Ved",
+    role: "Lucknow · ",
+    starts: "★★★★★",
+    review:
+      `I have been going to Dr. Shivali for the past 6-7 years and she has always been excellent with her work. She patient-fully explains all the diagnosis, exercises and after-care to be taken. She is experienced, sweet and thorough in her work.`,
+  },
+  {
+    name: "Jatin Shah",
+    role: "Lucknow · ",
+    starts: "★★★★★",
+    review:
+      `Dr Shivani took physiotherapy sessions for my Father and Mother after their knee replacement surgery. Her professional experience along with her friendly and approachable demeanor was really impressive. I remember everyday in morning when she came she would ask my father about all the exercises she'd assigned the day before and motivate him if he would miss any of them. Throughout the sessions she'd be chatting to keep them engaged so they don't feel the pain. Dr Shivani's humble nature and her assessment of patient's medical condition was remarkable. In a brief the Orthopedic doctor fixed the legs but Dr Shivani was the one to make my parents walk again.
+      Thank you Doctor!!`,
+  },
+  {
+    name: "Zainab Malak",
+    role: "Lucknow · ",
+    starts: "★★★★★",
+    review:
+      `Dr Shivali has been treating my mom Inlaw from past 7-Byrs. My mom Inlaw is Asthmatic, each time she gets severe attack it's Dr Shivali at rescue. She is dedicated in her work. Highly recommend.`,
+  },
+  {
+    name: "Sangeeta Somalya",
+    role: "Lucknow · ",
+    starts: "★★★★★",
+    review:
+      `Dr. Shivali Gupta is a very calm& confident physiotherapist in her work approach Her knowledge & understanding is very reassuring. Firstly my right hand was got fracture. Secondly I was operated my right knee surgery. In both case she provides treatment really Easy & effective. Making me fit & to do my activities. Very happy & satisfied with Dr. Shivali. Thankful to Dr. Shivali Gupta.`,
   },
 ]
 
@@ -272,7 +352,9 @@ export const Posts = [
   { src: "/insta-3.jpg", url: "https://www.instagram.com/reel/DCy60h4TXaY/?igsh=Y2J0aGVxZmUzcDU0", alt: "Flat lay of home physiotherapy equipment", caption: "Received SIGNIFICANT CONTRIBUTION AWARD! I am truly  honored. A heartfelt thanks to everyone who has supported me in this journey." },
   { src: "/insta-4.jpg", url: "https://www.instagram.com/reel/DVpqk1rkRjX/?igsh=OHl6M2pvZmx6bTZ1", alt: "Neck stretch at a desk", caption: "Honoured and grateful to receive the Naari Shakti Award on this Women’s Day.💜 This recognition from my own physiotherapy community means a lot." },
   { src: "/insta-5.jpg", url: "https://www.instagram.com/reel/C-7B_U5ypo8/?igsh=MWdscjJ1ejJ2NDZ3bg==", alt: "Flat lay of home physiotherapy equipment", caption: "It’s not about perfect. It’s about effort. And when you bring that effort every single day, that’s where transformation happens. That’s how change occurs." },
-  { src: "/insta-6.jpg", url: "https://www.instagram.com/reel/DAgakfFOLuL/?igsh=cnd6MGE1aHhnem9p", alt: "Neck stretch at a desk", caption: "#bellspalsy #bellspalsyrecovery #neurologicalrehabilitation #physicaltherapyforbellspalsy #drshivali #physiotherapist " },
+  { src: "/insta-6.jpg", url: "https://www.instagram.com/reel/DAgakfFOLuL/?igsh=cnd6MGE1aHhnem9p", alt: "Neck stretch at a desk", caption: "#drshivali_physiotherapyclinic #drshivaligupta #yamuna nagar #bellspalsy #bellspalsyrecovery #neurologicalrehabilitation #physicaltherapyforbellspalsy #drshivali #physiotherapist " },
+  { src: "/insta-7.jpg", url: "https://www.instagram.com/reel/DNilndZzVrU/?igsh=MW9xYWM2YzFuamxyaw==", alt: "7 Simple Exercise to boost circulation", caption: "#drshivali_physiotherapyclinic #drshivaligupta #yamuna_nagar #boost_circulation" },
+  { src: "/insta-8.jpg", url: "https://www.instagram.com/reel/DN8KfpjiHNL/?igsh=MWVhaG1nZmhpMGd6cg==", alt: "Frozen Shoulder", caption: "#drshivali_physiotherapyclinic #drshivaligupta #yamuna_nagar #Frozen_Shoulder" },
 ]
 
 
@@ -338,11 +420,31 @@ export const camp = [
   },
   {
     title: "Significant achievement Award - 2024",
-    image: "/camp6.jpeg",
+    image: "/camp11.jpeg",
   },
   {
     title: "Significant achievement Award - 2024",
     image: "/camp7.jpeg",
+  },
+  {
+    title: "Significant achievement Award - 2024",
+    image: "/camp8.jpeg",
+  },
+  {
+    title: "Significant achievement Award - 2024",
+    image: "/camp9.jpeg",
+  },
+  {
+    title: "Significant achievement Award - 2024",
+    image: "/camp10.jpeg",
+  },
+  {
+    title: "Significant achievement Award - 2024",
+    image: "/camp6.jpeg",
+  },
+  {
+    title: "Significant achievement Award - 2024",
+    image: "/camp12.png",
   },
 ]
 
