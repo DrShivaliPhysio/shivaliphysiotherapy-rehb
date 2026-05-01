@@ -13,6 +13,7 @@ import { SpecialServicesSection } from "@/components/Special-Services"
 import { AwardsSection } from "@/components/Awards"
 import { FlyerSection } from "@/components/Flyer"
 import { CampSection} from "@/components/camp"
+import { StickyMobileBar } from "@/components/StickyMobileBar"
 
 
 export default function Page() {
@@ -25,14 +26,14 @@ export default function Page() {
         <HeroSection />
         <ServicesSection />
         <SpecialServicesSection/>
-        <AudienceSection />
-        
+        <AudienceSection />        
         <InstagramSection />
         <AwardsSection/>
         <FlyerSection/>
         <CampSection/>
         <TestimonialsSection />
         <FaqSection />
+        <StickyMobileBar />
       </main>
       <SiteFooter />
       <FloatingActions />

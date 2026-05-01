@@ -24,7 +24,7 @@ export function TestimonialsSection() {
             <Quote className="h-7 w-7 text-primary opacity-70" />
 
             <div className="flex gap-1 mt-3 text-yellow-500 text-sm">
-              {featured.starts}
+              {featured.stars}
             </div>
 
             <blockquote className="mt-4 text-lg leading-8 text-foreground">
@@ -67,7 +67,7 @@ export function TestimonialsSection() {
 
                 {/* Stars */}
                 <div className="flex gap-1 mt-2 text-yellow-500 text-xs">
-                  {r.starts}
+                  {r.stars}
                 </div>
 
                 {/* Default Clamped Text */}
@@ -81,7 +81,7 @@ export function TestimonialsSection() {
                   <Quote className="h-5 w-5 text-primary opacity-70" />
 
                   <div className="flex gap-1 mt-2 text-yellow-500 text-xs">
-                    {r.starts}
+                    {r.stars}
                   </div>
 
                   <p className="mt-4 text-[0.95rem] leading-7 text-foreground overflow-y-auto pr-2 h-full">

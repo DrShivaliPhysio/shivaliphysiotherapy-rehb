@@ -25,7 +25,14 @@ export function FlyerSection() {
               key={service.title}
               className="group flex flex-col rounded-2xl border border-border bg-background p-6 transition-all hover:-translate-y-0.5 hover:shadow-[0_12px_40px_-20px_rgb(58_122_140_/_0.25)]"
             >
-              <img src={service.image} alt={service.title} ></img>
+              <div className="w-full h-full overflow-hidden rounded-xl">
+  <img
+    src={service.image}
+    alt={service.title}
+    className="w-full h-full object-cover"
+  />
+</div>
+              {/* <img src={service.image} alt={service.title} ></img> */}
             </article>
           ))}
         </div>

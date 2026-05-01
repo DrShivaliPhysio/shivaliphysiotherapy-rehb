@@ -44,7 +44,7 @@ export function FloatingActions() {
   const [open, setOpen] = useState(false)
 
   return (
-    <div className="fixed bottom-5 right-4 z-50 flex flex-col items-end gap-3 md:bottom-6 md:right-6">
+    <div className="fixed bottom-20 right-4 z-50 md:bottom-6 flex flex-col items-end gap-3 md:bottom-6 md:right-6">
       <div
         className={cn(
           "flex flex-col items-end gap-2 transition-all duration-300",

@@ -16,7 +16,7 @@ export function AboutSection() {
                 alt="Dr. Shivali Gupta during an online physiotherapy consultation"
                 fill
                 sizes="(min-width: 1024px) 480px, 90vw"
-                className="object-cover h-[90%]"
+                className="object-cover"
               />
             </div>
             <div className="md:absolute mt-10 md:mt-0 md:-bottom-6 left-6 right-6 rounded-2xl border border-border bg-background p-5 shadow-sm md:-bottom-8 md:left-8 md:right-12">
