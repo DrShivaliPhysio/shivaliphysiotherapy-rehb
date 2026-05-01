@@ -19,11 +19,11 @@ export function AwardsSection() {
             Every milestone reflects our commitment to quality treatment, patient satisfaction, and consistent results.
           </p>
         </div>
-        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 flex flex-wrap justify-center gap-5">
           {Awards.map((service) => (
             <article
               key={service.title}
-              className="group flex flex-col rounded-2xl border border-border bg-background p-6 transition-all hover:-translate-y-0.5 hover:shadow-[0_12px_40px_-20px_rgb(58_122_140_/_0.25)]"
+              className="group flex flex-col rounded-2xl border border-border bg-background p-6 transition-all hover:-translate-y-0.5 hover:shadow-[0_12px_40px_-20px_rgb(58_122_140_/_0.25)] min-w-[280px] flex-1 basis-[280px] max-w-[380px]"
             >
               <span className="flex h-11 w-11 items-center justify-center rounded-full bg-secondary">
                 <service.icon className="h-5 w-5 text-primary" />

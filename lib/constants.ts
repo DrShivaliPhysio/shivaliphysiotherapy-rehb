@@ -503,4 +503,5 @@ export const socialMediaLinks = [
   { icon: Instagram, label: "Instagram", href: Constants.instaHandleLink },
   { icon: Facebook, label: "Facebook", href: Constants.facebookLink },
   { icon: Youtube, label: "YouTube", href: Constants.youtubeLink },
+  { icon: Linkedin, label: "LinkedIn", href: Constants.linkedin },
 ]

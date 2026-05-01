@@ -6,7 +6,6 @@ import { Menu, X, Activity } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { Constants } from "@/lib/constants"
-import { constants } from "buffer"
 
 const navLinks = [
   { label: "Home", href: "#quickaction" },
@@ -21,6 +20,14 @@ const navLinks = [
   { label: "Reviews", href: "#testimonials" },  
   { label: "FAQ", href: "#faq" },
 ]
+
+function scrollToSection(e: React.MouseEvent<HTMLButtonElement>, href: string) {
+  e.preventDefault()
+  const element = document.querySelector(href)
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth" })
+  }
+}
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false)
@@ -42,14 +49,14 @@ export function SiteHeader() {
 
         <nav className="hidden items-center gap-8 md:flex" aria-label="Primary ">
           {navLinks.map((link) => (
-            <a
+            <button
               key={link.href}
-              href={link.href}
-              className="group relative text-sm text-muted-foreground transition-colors hover:text-foreground"
+              onClick={(e) => scrollToSection(e, link.href)}
+              className="group cursor-pointer relative text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
               {link.label}
               <span className="absolute -bottom-1 left-0 h-0.5 w-0 bg-primary transition-all duration-300 group-hover:w-full" />
-            </a>
+            </button>
           ))}
         </nav>
 
@@ -78,14 +85,16 @@ export function SiteHeader() {
       >
         <div className="mx-auto flex max-w-6xl flex-col gap-1 px-4 py-4">
           {navLinks.map((link) => (
-            <a
+            <button
               key={link.href}
-              href={link.href}
-              onClick={() => setOpen(false)}
-              className="rounded-lg px-3 py-2.5 text-sm text-foreground hover:bg-secondary"
+              onClick={(e) => {
+                scrollToSection(e, link.href)
+                setOpen(false)
+              }}
+              className="rounded-lg px-3 py-2.5 text-sm text-left text-foreground hover:bg-secondary"
             >
               {link.label}
-            </a>
+            </button>
           ))}
           <Button asChild size="sm" className="mt-2 w-full rounded-full">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLScRSWRfnJEsaEUr6a2m3WK-A2Mgn2QLGQvM-qWodkUF56-_dw/viewform" onClick={() => setOpen(false)}>

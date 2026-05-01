@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { AboutUsPoints, Constants } from "@/lib/constants"
+import { AboutUsPoints, Constants, socialMediaLinks } from "@/lib/constants"
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip"
 
 
@@ -48,6 +48,18 @@ export function AboutSection() {
             <p className="mt-4 text-base leading-relaxed text-muted-foreground">
               {Constants.aboutUsDescription2}
             </p>
+            <div className="mt-5 flex gap-2">
+              {socialMediaLinks.map((s) => (
+                <a
+                  key={s.label}
+                  href={s.href}
+                  aria-label={s.label}
+                  className="flex h-9 w-9 items-center justify-center rounded-full border border-border text-muted-foreground transition-colors hover:border-primary/40 hover:text-primary"
+                >
+                  <s.icon className="h-4 w-4" />
+                </a>
+              ))}
+            </div>
 
             <div className="mt-8 grid gap-3 sm:grid-cols-2">
               {AboutUsPoints.map((c) => (
