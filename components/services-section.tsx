@@ -46,7 +46,7 @@ export function ServicesSection() {
 
               {/* CTA */}
               <a
-                href="#book"
+                href="https://docs.google.com/forms/d/e/1FAIpQLScRSWRfnJEsaEUr6a2m3WK-A2Mgn2QLGQvM-qWodkUF56-_dw/viewform"
                 className="mt-4 text-sm font-medium text-primary flex items-center gap-1"
               >
                 Book Now →

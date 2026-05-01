@@ -8,7 +8,7 @@ import { Constants } from "@/lib/constants"
 const actions = [
   {
     label: "Book Appointment",
-    href: "#book",
+    href: "https://docs.google.com/forms/d/e/1FAIpQLScRSWRfnJEsaEUr6a2m3WK-A2Mgn2QLGQvM-qWodkUF56-_dw/viewform",
     icon: Calendar,
     bg: "bg-primary text-primary-foreground",
   },

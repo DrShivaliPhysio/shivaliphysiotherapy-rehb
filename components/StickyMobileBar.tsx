@@ -23,7 +23,7 @@ export function StickyMobileBar() {
       </a>
 
       <a
-        href="#book"
+        href="https://docs.google.com/forms/d/e/1FAIpQLScRSWRfnJEsaEUr6a2m3WK-A2Mgn2QLGQvM-qWodkUF56-_dw/viewform"
         className="flex flex-col items-center text-xs text-primary font-medium"
       >
         <span className="text-lg">📅</span>
