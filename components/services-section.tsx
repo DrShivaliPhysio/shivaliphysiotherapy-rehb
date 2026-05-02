@@ -27,30 +27,63 @@ export function ServicesSection() {
           {Services.map((service) => (
             <article
               key={service.title}
-              className="group flex flex-col rounded-2xl border border-border bg-background p-6 transition-all hover:-translate-y-1 hover:shadow-lg"
+              className="
+                group relative flex flex-col rounded-2xl border border-border bg-background p-6
+                transition-all duration-300 ease-out
+
+                hover:-translate-y-2
+                hover:scale-[1.02]
+                hover:shadow-xl hover:shadow-primary/10
+                hover:border-primary/30
+                hover:bg-secondary/30
+              "
             >
+              
+              {/* Glow Background Effect */}
+              <div className="
+                absolute inset-0 rounded-2xl opacity-0
+                transition-opacity duration-300
+                group-hover:opacity-100
+                bg-gradient-to-br from-primary/5 to-transparent
+              " />
+
               {/* Icon */}
-              <span className="flex h-11 w-11 items-center justify-center rounded-full bg-secondary">
-                <service.icon className="h-5 w-5 text-primary" />
+              <span className="
+                relative z-10 flex h-11 w-11 items-center justify-center rounded-full bg-secondary
+                transition-all duration-300
+                group-hover:scale-110 group-hover:rotate-6 group-hover:bg-primary/10
+              ">
+                <service.icon className="h-5 w-5 text-primary transition-transform duration-300 group-hover:scale-110" />
               </span>
 
               {/* Title */}
-              <h3 className="mt-5 font-serif text-lg font-medium text-foreground">
+              <h3 className="relative z-10 mt-5 font-serif text-lg font-medium text-foreground">
                 {service.title}
               </h3>
 
               {/* Description */}
-              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+              <p className="relative z-10 mt-2 text-sm leading-relaxed text-muted-foreground">
                 {service.body}
               </p>
 
               {/* CTA */}
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLScRSWRfnJEsaEUr6a2m3WK-A2Mgn2QLGQvM-qWodkUF56-_dw/viewform"
-                className="mt-4 text-sm font-medium text-primary flex items-center gap-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="
+                  relative z-10 mt-4 text-sm font-medium text-primary
+                  flex items-center gap-1 transition-all duration-300
+
+                  group-hover:gap-2
+                "
               >
-                Book Now →
+                Book Now
+                <span className="transition-transform duration-300 group-hover:translate-x-1">
+                  →
+                </span>
               </a>
+
             </article>
           ))}
         </div>

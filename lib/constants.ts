@@ -387,10 +387,10 @@ export const Flyer = [
     title: "Significant achievement Award - 2024",
     image: "/flyer4.jpeg",
   },
-  // {
-  //   title: "Significant achievement Award - 2024",
-  //   image: "/flyer5.jpeg",
-  // },
+  {
+    title: "Significant achievement Award - 2024",
+    image: "/flyer5.jpeg",
+  },
   {
     title: "Significant achievement Award - 2024",
     image: "/flyer6.jpeg",
@@ -467,7 +467,7 @@ export const Faqs = [
   },
   {
     q: "How do I book an appointment with a physiotherapist?",
-    a: "You can easily book an appointment by: Calling or WhatsApping us Filling out the appointment form on our website or Visiting the clinic directly",
+    a: "You can easily book an appointment by: Calling or WhatsApping us, Filling out the appointment form on our website or Visiting the clinic directly",
   },
   {
     q: "Can I choose to have in-person or telephysiotherapy sessions?",

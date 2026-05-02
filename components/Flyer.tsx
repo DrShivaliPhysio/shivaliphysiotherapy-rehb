@@ -7,7 +7,7 @@ import { ArrowUpRight } from "lucide-react";
 export function FlyerSection() {
   return (
     <section id="flyer" className="bg-secondary py-10 md:py-10">
-      <div className="mx-auto max-w-6xl px-4 md:px-6">
+      <div className="mx-auto max-w-12xl px-4 md:px-6">
         <div className="flex flex-col items-start gap-4 md:flex-row md:items-end md:justify-between">
           <div className="max-w-2xl">
             <span className="text-xs font-medium uppercase tracking-[0.14em] text-primary">Our Workshops & Webinars</span>
@@ -25,7 +25,7 @@ export function FlyerSection() {
               key={service.title}
               className="group flex flex-col rounded-2xl border border-border bg-background p-6 transition-all hover:-translate-y-0.5 hover:shadow-[0_12px_40px_-20px_rgb(58_122_140_/_0.25)]"
             >
-              <div className="w-full h-full overflow-hidden rounded-xl">
+              <div className="w-full overflow-hidden rounded-xl aspect-[4/5]">
   <img
     src={service.image}
     alt={service.title}
