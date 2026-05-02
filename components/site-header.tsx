@@ -7,7 +7,18 @@ import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { Constants } from "@/lib/constants"
 
+// ✅ Reduced desktop links (rest go in mobile)
 const navLinks = [
+  { label: "Home", href: "#quickaction" },
+  { label: "About", href: "#about" },
+  { label: "Services", href: "#services-section" },
+  { label: "Special", href: "#special-services" },
+  { label: "Reviews", href: "#testimonials" },
+  { label: "FAQ", href: "#faq" },
+]
+
+// ✅ Full list only for mobile
+const mobileLinks = [
   { label: "Home", href: "#quickaction" },
   { label: "About", href: "#about" },
   { label: "Services", href: "#services-section" },
@@ -33,70 +44,54 @@ export function SiteHeader() {
   const [open, setOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-40 w-full border-b border-border/60 bg-background/80 backdrop-blur-xl transition-all duration-300">
-      <div className="mx-auto flex h-16 w-full items-center justify-between px-4 md:px-6">
+    <header className="sticky top-0 z-40 w-full border-b border-border/60 bg-background/80 backdrop-blur-xl">
+      
+      {/* CONTAINER */}
+      <div className="mx-auto flex h-16 w-full items-center justify-between px-4 md:px-6 gap-4">
 
         {/* LOGO */}
-        <Link href="/" className="group flex items-center gap-2.5">
-          <span className="flex h-9 w-9 items-center justify-center rounded-full bg-secondary transition-transform duration-300 group-hover:scale-110">
-            <img
-              src={"/apple-icon.png"}
-              alt={"logo"}
-              className="h-10 w-10"
-            />
+        <Link href="/" className="group flex items-center gap-2.5 min-w-0">
+          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-secondary transition-transform duration-300 group-hover:scale-110">
+            <img src={"/apple-icon.png"} alt="logo" className="h-10 w-10" />
           </span>
 
-          <span className="flex flex-col leading-tight">
-            <span className="font-serif text-base font-medium text-foreground transition-colors group-hover:text-primary">
+          {/* FIXED TEXT OVERFLOW */}
+          <span className="flex flex-col leading-tight max-w-[150px] lg:max-w-none truncate">
+            <span className="font-serif text-sm md:text-base font-medium text-foreground truncate group-hover:text-primary">
               {Constants.doctorName}
             </span>
-            <span className="text-[11px] text-muted-foreground">
+
+            {/* Hidden on smaller screens */}
+            <span className="text-[10px] text-muted-foreground hidden xl:block truncate">
               {Constants.qualifications}
             </span>
-            <span className="text-[11px] text-muted-foreground">
+            <span className="text-[10px] text-muted-foreground hidden xl:block truncate">
               {Constants.qualifications1}
             </span>
           </span>
         </Link>
 
         {/* DESKTOP NAV */}
-        <nav className="hidden items-center gap-8 md:flex" aria-label="Primary">
+        <nav className="hidden lg:flex items-center gap-5 whitespace-nowrap">
           {navLinks.map((link) => (
             <button
               key={link.href}
               onClick={(e) => scrollToSection(e, link.href)}
-              className="
-                group relative text-sm text-muted-foreground
-                transition-all duration-300
-
-                hover:text-foreground
-                hover:-translate-y-0.5
-              "
+              className="group relative text-sm text-muted-foreground transition-all duration-300 hover:text-foreground hover:-translate-y-0.5"
             >
               {link.label}
 
-              {/* Underline Animation */}
-              <span className="
-                absolute -bottom-1 left-0 h-0.5 w-0 bg-primary
-                transition-all duration-300 ease-out
-                group-hover:w-full
-              " />
+              <span className="absolute -bottom-1 left-0 h-0.5 w-0 bg-primary transition-all duration-300 group-hover:w-full" />
             </button>
           ))}
         </nav>
 
-        {/* CTA BUTTON */}
-        <div className="hidden md:block">
+        {/* CTA */}
+        <div className="hidden xl:block shrink-0">
           <Button
             asChild
             size="sm"
-            className="
-              rounded-full px-5
-              transition-all duration-300
-
-              hover:scale-105
-              hover:shadow-lg hover:shadow-primary/20
-            "
+            className="rounded-full px-4 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-primary/20"
           >
             <a href="https://docs.google.com/forms/d/e/1FAIpQLScRSWRfnJEsaEUr6a2m3WK-A2Mgn2QLGQvM-qWodkUF56-_dw/viewform">
               Book Appointment
@@ -104,52 +99,33 @@ export function SiteHeader() {
           </Button>
         </div>
 
-        {/* MOBILE MENU BUTTON */}
+        {/* MOBILE BUTTON */}
         <button
-          type="button"
           onClick={() => setOpen((v) => !v)}
-          className="
-            inline-flex h-10 w-10 items-center justify-center rounded-full border border-border
-            text-foreground md:hidden
-            transition-all duration-300
-
-            hover:scale-110 hover:bg-secondary
-          "
-          aria-label="Toggle menu"
-          aria-expanded={open}
+          className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border lg:hidden transition-all duration-300 hover:scale-110 hover:bg-secondary"
         >
-          <span className="transition-transform duration-300">
-            {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-          </span>
+          {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </button>
       </div>
 
       {/* MOBILE MENU */}
       <div
         className={cn(
-          "md:hidden overflow-hidden border-t border-border/60 bg-background/95 backdrop-blur-xl transition-all duration-300",
-          open ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
+          "lg:hidden overflow-hidden border-t border-border/60 bg-background/95 backdrop-blur-xl transition-all duration-300",
+          open ? "max-h-[600px] opacity-100" : "max-h-0 opacity-0"
         )}
       >
         <div className="mx-auto flex max-w-6xl flex-col gap-1 px-4 py-4">
 
-          {navLinks.map((link, index) => (
+          {mobileLinks.map((link, index) => (
             <button
               key={link.href}
               onClick={(e) => {
                 scrollToSection(e, link.href)
                 setOpen(false)
               }}
-              className="
-                rounded-lg px-3 py-2.5 text-sm text-left text-foreground
-                transition-all duration-300
-
-                hover:bg-secondary
-                hover:translate-x-1
-              "
-              style={{
-                transitionDelay: open ? `${index * 40}ms` : "0ms",
-              }}
+              className="rounded-lg px-3 py-2.5 text-sm text-left text-foreground transition-all duration-300 hover:bg-secondary hover:translate-x-1"
+              style={{ transitionDelay: open ? `${index * 40}ms` : "0ms" }}
             >
               {link.label}
             </button>
@@ -158,13 +134,7 @@ export function SiteHeader() {
           <Button
             asChild
             size="sm"
-            className="
-              mt-2 w-full rounded-full
-              transition-all duration-300
-
-              hover:scale-[1.02]
-              hover:shadow-md
-            "
+            className="mt-2 w-full rounded-full transition-all duration-300 hover:scale-[1.02] hover:shadow-md"
           >
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLScRSWRfnJEsaEUr6a2m3WK-A2Mgn2QLGQvM-qWodkUF56-_dw/viewform"
@@ -173,7 +143,6 @@ export function SiteHeader() {
               Book Appointment
             </a>
           </Button>
-
         </div>
       </div>
     </header>
