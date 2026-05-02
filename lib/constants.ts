@@ -6,7 +6,7 @@ export const Constants = {
   doctorName: "Dr. Shivali Gupta (P.T)",
   qualifications: "Consultant Physiotherapist | MPT(Neuro) | MIAP",
   qualifications1: "DNHE | PGDHHM | CKT | CCT | CDNT | CNDT | MFR",
-  qualifications2: "Cert. in  Computer Ergonomics | Cert. in Hydrotherapy | Cert. in Hydrotherapy Yoga Wellness Instructor",
+  qualifications2: "Cert. in  Computer Ergonomics | Cert. in Hydrotherapy Yoga Wellness Instructor",
   heroDescription: `One-on-one online consultations and personalized recovery plans designed around your body, your pace, and your daily life. Fifteen plus years of
    patient-first care — from Delhi to Mumbai, Lucknow & now serving patients from Haryana & Pan-India.`,
   contactNo: "+919324843597",
@@ -248,7 +248,7 @@ export const Reviews = [
   },
   {
     name: "Aman Mohan Mishra",
-    role: "Lucknow · ",
+    role: "Lucknow· ",
     stars: "★★★★★",
     review:
       `A Life Saver! 
@@ -256,21 +256,21 @@ export const Reviews = [
   },
   {
     name: "Vanchhit Pratap Singh",
-    role: "Lucknow · ",
+    role: "Lucknow· ",
     stars: "★★★★★",
     review:
       `I had a great experience with Dr Shivali . She is professional, knowledgeable, and truly attentive to my needs. The treatment plan was well-explained and tailored specifically for my condition. Thanks for her guidance and care, I’ve seen significant improvement and feel much better now`,
   },
   {
     name: "Praveen Kumar Yaadav",
-    role: "Lucknow · ",
+    role: "Lucknow· ",
     stars: "★★★★★",
     review:
       `I felt that Dr Shivali truly listened to my concerns and tailored the treatment to my specific needs. The clinic was clean and well-equipped. I was impressed by Dr.Shivali's expertise in physiotherapy.`,
   },
   {
     name: "Raksha Gupta",
-    role: "Lucknow · ",
+    role: "Lucknow· ",
     stars: "★★★★★",
     review:
       `I had the pleasure of receiving physiotherapy services from Dr. Shivali, and I am extremely delighted with the results. I was facing spondylosis, a challenging health issue, and thanks to Dr. Shivali's expertise and dedication, I am now fully relieved.
@@ -282,7 +282,7 @@ export const Reviews = [
   },
   {
     name: "Hamarna Marolia",
-    role: "Lucknow · ",
+    role: "Mumbai· ",
     stars: "★★★★★",
     review:
       `I underwent ACL surgery and had the privilege of being coached Dr. Shivali for my rehabilitation. Her expertise and personalized approach made the recovery process smooth and effective.
@@ -291,21 +291,21 @@ export const Reviews = [
   },
   {
     name: "Prasanna Sarwate",
-    role: "Lucknow · ",
+    role: "Mumbai· ",
     stars: "★★★★★",
     review:
       `Thanks Dr. for your commitment and the way you treated my mother, superb care and personal service with high level of professionalism. I would 100per recommend her who is in need.`,
   },
   {
     name: "Swapneil Thakur",
-    role: "Lucknow · ",
+    role: "Mumbai· ",
     stars: "★★★★★",
     review:
       `She has great knowledge of the body injuried. She helped me recover from many injuries likw tennis elbow, knee ligament tear, miniscus tear and muscles tear.`,
   },
   {
     name: "Chhaye Nakhe",
-    role: "Lucknow · ",
+    role: "Mumbai· ",
     stars: "★★★★★",
     review:
       `My mother-in-law was treated by Dr. Shivali after her knee replacement operation of both the legs at the same time. Dr. Shivali did an excellent job.
@@ -316,14 +316,14 @@ Highly recommended!!!`,
   },
   {
     name: "Hetal Ved",
-    role: "Lucknow · ",
+    role: "Mumbai· ",
     stars: "★★★★★",
     review:
       `I have been going to Dr. Shivali for the past 6-7 years and she has always been excellent with her work. She patient-fully explains all the diagnosis, exercises and after-care to be taken. She is experienced, sweet and thorough in her work.`,
   },
   {
     name: "Jatin Shah",
-    role: "Lucknow · ",
+    role: "Mumbai· ",
     stars: "★★★★★",
     review:
       `Dr Shivani took physiotherapy sessions for my Father and Mother after their knee replacement surgery. Her professional experience along with her friendly and approachable demeanor was really impressive. I remember everyday in morning when she came she would ask my father about all the exercises she'd assigned the day before and motivate him if he would miss any of them. Throughout the sessions she'd be chatting to keep them engaged so they don't feel the pain. Dr Shivani's humble nature and her assessment of patient's medical condition was remarkable. In a brief the Orthopedic doctor fixed the legs but Dr Shivani was the one to make my parents walk again.
@@ -331,14 +331,14 @@ Highly recommended!!!`,
   },
   {
     name: "Zainab Malak",
-    role: "Lucknow · ",
+    role: "Mumbai· ",
     stars: "★★★★★",
     review:
       `Dr Shivali has been treating my mom Inlaw from past 7-Byrs. My mom Inlaw is Asthmatic, each time she gets severe attack it's Dr Shivali at rescue. She is dedicated in her work. Highly recommend.`,
   },
   {
     name: "Sangeeta Somalya",
-    role: "Lucknow · ",
+    role: "Mumbai· ",
     stars: "★★★★★",
     review:
       `Dr. Shivali Gupta is a very calm& confident physiotherapist in her work approach Her knowledge & understanding is very reassuring. Firstly my right hand was got fracture. Secondly I was operated my right knee surgery. In both case she provides treatment really Easy & effective. Making me fit & to do my activities. Very happy & satisfied with Dr. Shivali. Thankful to Dr. Shivali Gupta.`,
@@ -467,7 +467,7 @@ export const Faqs = [
   },
   {
     q: "How do I book an appointment with a physiotherapist?",
-    a: "You can easily book an appointment by: Calling or WhatsApping us Filling out the appointment form on our website Visiting the clinic directly",
+    a: "You can easily book an appointment by: Calling or WhatsApping us Filling out the appointment form on our website or Visiting the clinic directly",
   },
   {
     q: "Can I choose to have in-person or telephysiotherapy sessions?",

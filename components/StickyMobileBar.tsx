@@ -4,7 +4,7 @@ import { Constants } from "@/lib/constants"
 
 export function StickyMobileBar() {
   return (
-    <div className="fixed bottom-0 left-0 w-full bg-background border-t border-border z-50 flex justify-around items-center py-2 md:hidden shadow-lg">
+    <div className="fixed bottom-0 left-0 w-full bg-secondary border-t border-border z-50 flex justify-around items-center py-2 md:hidden shadow-lg">
 
       <a
         href={`tel:${Constants.contactNo}`}

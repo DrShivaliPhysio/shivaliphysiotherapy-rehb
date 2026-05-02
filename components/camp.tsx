@@ -38,12 +38,12 @@ export function CampSection() {
 />
               </div>
 
-              {/* Content */}
+              {/* Content
               <div className="p-4 flex-1 flex items-end">
                 <p className="text-sm font-medium text-foreground leading-snug">
                   {item.title}
                 </p>
-              </div>
+              </div> */}
 
             </article>
           ))}

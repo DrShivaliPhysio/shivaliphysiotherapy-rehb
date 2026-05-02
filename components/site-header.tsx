@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { Menu, X, Activity } from "lucide-react"
+import { Menu, X, } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { Constants } from "@/lib/constants"
@@ -16,7 +16,7 @@ const navLinks = [
   { label: "Insta Posts", href: "#InstagramSection" },
   { label: "Awards", href: "#Awards" },
   { label: "Flyers", href: "#flyer" },
-  { label: "Camps", href: "#camp" },  
+  { label: "Camps", href: "#CampSection" },  
   { label: "Reviews", href: "#testimonials" },  
   { label: "FAQ", href: "#faq" },
 ]
@@ -37,7 +37,10 @@ export function SiteHeader() {
       <div className="mx-auto flex h-16 w-full items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2.5">
           <span className="flex h-9 w-9 items-center justify-center rounded-full bg-secondary">
-            <Activity className="h-5 w-5 text-primary" aria-hidden />
+          <img
+                src={"/apple-icon.png"}
+                alt={"logo"}
+                className="h-10 w-10 text-primary" aria-hidden />
           </span>
           <span className="flex flex-col leading-tight">
             <span className="font-serif text-base font-medium text-foreground">{Constants.doctorName}</span>

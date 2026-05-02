@@ -17,7 +17,7 @@ export function HeroSection() {
 
           <span className="inline-flex w-fit items-center gap-2 rounded-full border border-border bg-background px-3 py-1.5 text-xs text-muted-foreground">
             <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-            Online & Home Consultation Available
+            Online Consultation Available
           </span>
 
           {/* 🔥 NEW POWER HEADLINE */}
