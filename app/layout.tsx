@@ -16,10 +16,9 @@ const fraunces = Fraunces({
   display: "swap",
 })
 
-
 export const metadata: Metadata = {
   title: "Online Physiotherapy Consultation | Dr Shivali Physiotherapy Haryana",
-verification: {
+  verification: {
     google: "k-nJAegrzAZ3ixh4WMMvFJQhwg0Kq5AdHUZbcl8I6xo",
   },
   description:
@@ -110,11 +109,11 @@ export default function RootLayout({
               name: "Dr Shivali Physiotherapy",
               description:
                 "Online physiotherapy consultation and rehabilitation services",
-                "@id": "https://drshivaliphysio.com/#organization",
+              "@id": "https://drshivaliphysio.com/#organization",
               areaServed: {
-  "@type": "AdministrativeArea",
-  name: "Haryana, India",
-},
+                "@type": "AdministrativeArea",
+                name: "Haryana, India",
+              },
               url: "https://drshivaliphysio.com",
               availableService: {
                 "@type": "MedicalTherapy",
@@ -124,7 +123,10 @@ export default function RootLayout({
           }}
         />
 
-        {children}
+        {/* ✅ FIX: Prevent footer from being hidden by StickyMobileBar */}
+        <main className="pb-[calc(96px+env(safe-area-inset-bottom))] md:pb-0">
+          {children}
+        </main>
 
         {process.env.NODE_ENV === "production" && <Analytics />}
       </body>

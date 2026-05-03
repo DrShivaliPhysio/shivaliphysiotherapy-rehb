@@ -1,6 +1,7 @@
 "use client"
 
 import { Constants } from "@/lib/constants"
+import { CalendarDays } from "lucide-react"
 
 export function StickyMobileBar() {
   return (
@@ -26,7 +27,7 @@ export function StickyMobileBar() {
         href="https://docs.google.com/forms/d/e/1FAIpQLScRSWRfnJEsaEUr6a2m3WK-A2Mgn2QLGQvM-qWodkUF56-_dw/viewform"
         className="flex flex-col items-center text-xs text-primary font-medium"
       >
-        <span className="text-lg">📅</span>
+        <CalendarDays className="h-5 w-5 mb-0.5" />
         Book
       </a>
 
