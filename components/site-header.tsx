@@ -1,13 +1,12 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { Constants } from "@/lib/constants"
 
-// ✅ Reduced desktop links (rest go in mobile)
 const navLinks = [
   { label: "Home", href: "#quickaction" },
   { label: "About", href: "#about" },
@@ -17,7 +16,6 @@ const navLinks = [
   { label: "FAQ", href: "#faq" },
 ]
 
-// ✅ Full list only for mobile
 const mobileLinks = [
   { label: "Home", href: "#quickaction" },
   { label: "About", href: "#about" },
@@ -26,7 +24,7 @@ const mobileLinks = [
   { label: "Who It's For", href: "#audience" },
   { label: "Insta Posts", href: "#InstagramSection" },
   { label: "Awards", href: "#Awards" },
-  { label: "Flyers", href: "#flyer" },
+  { label: "Our Workshops & Webinars", href: "#flyer" },
   { label: "Camps", href: "#CampSection" },
   { label: "Reviews", href: "#testimonials" },
   { label: "FAQ", href: "#faq" },
@@ -43,8 +41,13 @@ function scrollToSection(e: React.MouseEvent<HTMLButtonElement>, href: string) {
 export function SiteHeader() {
   const [open, setOpen] = useState(false)
 
+  // 🔥 Prevent background scroll when menu is open
+  useEffect(() => {
+    document.body.style.overflow = open ? "hidden" : "auto"
+  }, [open])
+
   return (
-    <header className="sticky top-0 z-40 w-full border-b border-border/60 bg-background/80 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/80 backdrop-blur-xl">
       
       {/* CONTAINER */}
       <div className="mx-auto flex h-16 w-full items-center justify-between px-4 md:px-6 gap-4">
@@ -55,13 +58,11 @@ export function SiteHeader() {
             <img src={"/apple-icon.png"} alt="logo" className="h-10 w-10" />
           </span>
 
-          {/* FIXED TEXT OVERFLOW */}
           <span className="flex flex-col leading-tight max-w-[150px] lg:max-w-none truncate">
             <span className="font-serif text-sm md:text-base font-medium text-foreground truncate group-hover:text-primary">
               {Constants.doctorName}
             </span>
 
-            {/* Hidden on smaller screens */}
             <span className="text-[10px] text-muted-foreground hidden xl:block truncate">
               {Constants.qualifications}
             </span>
@@ -80,7 +81,6 @@ export function SiteHeader() {
               className="group relative text-sm text-muted-foreground transition-all duration-300 hover:text-foreground hover:-translate-y-0.5"
             >
               {link.label}
-
               <span className="absolute -bottom-1 left-0 h-0.5 w-0 bg-primary transition-all duration-300 group-hover:w-full" />
             </button>
           ))}
@@ -111,11 +111,11 @@ export function SiteHeader() {
       {/* MOBILE MENU */}
       <div
         className={cn(
-          "lg:hidden overflow-hidden border-t border-border/60 bg-background/95 backdrop-blur-xl transition-all duration-300",
-          open ? "max-h-[600px] opacity-100" : "max-h-0 opacity-0"
+          "lg:hidden border-t border-border/60 bg-background/95 backdrop-blur-xl transition-all duration-300",
+          open ? "max-h-[80vh] opacity-100" : "max-h-0 opacity-0"
         )}
       >
-        <div className="mx-auto flex max-w-6xl flex-col gap-1 px-4 py-4">
+        <div className="mx-auto flex max-w-6xl flex-col gap-1 px-4 py-4 overflow-y-auto max-h-[80vh]">
 
           {mobileLinks.map((link, index) => (
             <button

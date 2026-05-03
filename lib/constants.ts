@@ -347,11 +347,11 @@ Highly recommended!!!`,
 
 
 export const Posts = [
-  { src: "/insta-1.jpg", url: "https://www.instagram.com/reel/DXJ6fWrEQ7R/?igsh=dzloc2g0NW15bDAw", alt: "Flat lay of home physiotherapy equipment", caption: "If you’re a teacher, these 2-minute exercises can save you from: Back pain, Neck stiffness, Daily fatigue" },
-  { src: "/insta-2.jpg", url: "https://www.instagram.com/reel/DW_krrYETDL/?igsh=MW8zNGR5cXl2dDFkZw==", alt: "Neck stretch at a desk", caption: "Teachers don’t just teach… they sacrifice their spine daily.  From long standing hours to repeated bending and wrong board height , your body takes the hit." },
-  { src: "/insta-3.jpg", url: "https://www.instagram.com/reel/DCy60h4TXaY/?igsh=Y2J0aGVxZmUzcDU0", alt: "Flat lay of home physiotherapy equipment", caption: "Received SIGNIFICANT CONTRIBUTION AWARD! I am truly  honored. A heartfelt thanks to everyone who has supported me in this journey." },
-  { src: "/insta-4.jpg", url: "https://www.instagram.com/reel/DVpqk1rkRjX/?igsh=OHl6M2pvZmx6bTZ1", alt: "Neck stretch at a desk", caption: "Honoured and grateful to receive the Naari Shakti Award on this Women’s Day.💜 This recognition from my own physiotherapy community means a lot." },
-  { src: "/insta-5.jpg", url: "https://www.instagram.com/reel/C-7B_U5ypo8/?igsh=MWdscjJ1ejJ2NDZ3bg==", alt: "Flat lay of home physiotherapy equipment", caption: "It’s not about perfect. It’s about effort. And when you bring that effort every single day, that’s where transformation happens. That’s how change occurs." },
+  { src: "/insta-1.jpg", url: "https://www.instagram.com/reel/DXJ6fWrEQ7R/?igsh=dzloc2g0NW15bDAw", alt: "Flat lay of home physiotherapy equipment", caption: "If you’re a teacher, these 2-minute exercises can save you from: Back pain, Neck stiffness, Daily fatigue #drshivali_physiotherapyclinic #drshivaligupta #yamuna_nagar" },
+  { src: "/insta-2.jpg", url: "https://www.instagram.com/reel/DW_krrYETDL/?igsh=MW8zNGR5cXl2dDFkZw==", alt: "Neck stretch at a desk", caption: "Teachers don’t just teach… they sacrifice their spine daily.  From long standing hours to repeated bending and wrong board height , your body takes the hit. #drshivali_physiotherapyclinic #drshivaligupta #yamuna_nagar" },
+  { src: "/insta-3.jpg", url: "https://www.instagram.com/reel/DCy60h4TXaY/?igsh=Y2J0aGVxZmUzcDU0", alt: "Flat lay of home physiotherapy equipment", caption: "Received SIGNIFICANT CONTRIBUTION AWARD! I am truly  honored. A heartfelt thanks to everyone who has supported me in this journey. #drshivali_physiotherapyclinic #drshivaligupta #yamuna_nagar" },
+  { src: "/insta-4.jpg", url: "https://www.instagram.com/reel/DVpqk1rkRjX/?igsh=OHl6M2pvZmx6bTZ1", alt: "Neck stretch at a desk", caption: "Honoured and grateful to receive the Naari Shakti Award on this Women’s Day.💜 This recognition from my own physiotherapy community means a lot. #drshivali_physiotherapyclinic #drshivaligupta #yamuna_nagar" },
+  { src: "/insta-5.jpg", url: "https://www.instagram.com/reel/C-7B_U5ypo8/?igsh=MWdscjJ1ejJ2NDZ3bg==", alt: "Flat lay of home physiotherapy equipment", caption: "It’s not about perfect. It’s about effort. And when you bring that effort every single day, that’s where transformation happens. That’s how change occurs. #drshivali_physiotherapyclinic #drshivaligupta #yamuna_nagar" },
   { src: "/insta-6.jpg", url: "https://www.instagram.com/reel/DAgakfFOLuL/?igsh=cnd6MGE1aHhnem9p", alt: "Neck stretch at a desk", caption: "#drshivali_physiotherapyclinic #drshivaligupta #yamuna nagar #bellspalsy #bellspalsyrecovery #neurologicalrehabilitation #physicaltherapyforbellspalsy #drshivali #physiotherapist " },
   { src: "/insta-7.jpg", url: "https://www.instagram.com/reel/DNilndZzVrU/?igsh=MW9xYWM2YzFuamxyaw==", alt: "7 Simple Exercise to boost circulation", caption: "#drshivali_physiotherapyclinic #drshivaligupta #yamuna_nagar #boost_circulation" },
   { src: "/insta-8.jpg", url: "https://www.instagram.com/reel/DN8KfpjiHNL/?igsh=MWVhaG1nZmhpMGd6cg==", alt: "Frozen Shoulder", caption: "#drshivali_physiotherapyclinic #drshivaligupta #yamuna_nagar #Frozen_Shoulder" },
@@ -360,90 +360,90 @@ export const Posts = [
 
 export const Flyer = [
   {
-    title: "Nari Shakti Award - 2026",
-    image: "https://instagram.fdel27-5.fna.fbcdn.net/v/t51.82787-15/670055831_17950151877131365_6352349593450109145_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=Mzg3NzM2NzQ1ODYxNzcwODk5NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEzNjV4MTgyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=UGBA-UM-twEQ7kNvwE_5O2K&_nc_oc=Adp05pziUt_GrNLcCTcffh16klgpC6F1kZZtpjWcXHwnxZPd5QfSnYldPhBEGjFJiLWnaukSTqWBg_n9vHHtHPce&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=instagram.fdel27-5.fna&_nc_gid=yIE-yOfzYrroUEYpebNwag&_nc_ss=7a22e&oh=00_Af1J2ck0ETCF0tuuWoAbh6pm8_5-GzQ36Y_H528pCx313Q&oe=69F6CDAF",
+    title: "Our Workshops & Webinars",
+    image: "/flyer8.jpeg",
   },
   {
-    title: "Significant achievement Award - 2024",
+    title: "Our Workshops & Webinars",
     image: "/flyer1.jpeg",
   },
   {
-    title: "Significant achievement Award - 2024",
-    image: "https://instagram.fdel27-4.fna.fbcdn.net/v/t51.82787-15/653903137_17945184465131365_512769113230541044_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzg1NDA0NjY4OTMxNzk0ODA3NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjExNTN4MTQzMi5zZHIuQzMifQ%3D%3D&_nc_ohc=TYB0m_3zbZYQ7kNvwGy_wIg&_nc_oc=AdrCmYgG4tb38AOPzCje6GbJfjBPEFaHYrgg2sFx8PTI3drZMV9M3AAnYnqDI157zHLzJ2PTKP-JT3TLCXW4xajn&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=instagram.fdel27-4.fna&_nc_gid=EYbn2aSfJHPbRPid_LtF4A&_nc_ss=7a22e&oh=00_Af0cmuB6PZfGGZX3U6lecN6S_Ng6T38vtKdJeJbJjFJLBA&oe=69F6C6EA",
+    title: "Our Workshops & Webinars",
+    image: "/flyer9.png",
   },
   {
-    title: "Significant achievement Award - 2024",
+    title: "Our Workshops & Webinars",
     image: "/flyer2.jpeg",
   },
   {
-    title: "Significant achievement Award - 2024",
-    image: "https://instagram.fdel27-1.fna.fbcdn.net/v/t51.75761-15/469944014_17891608758131365_696599088056531736_n.jpg?stp=dst-jpg_e35_s720x720_tt6&_nc_cat=101&ig_cache_key=MzUyMTI3MTc2MzM1MzcwMjE2Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTM3My5zZHIuQzMifQ%3D%3D&_nc_ohc=u7GN8Mw7_AgQ7kNvwEZEpbX&_nc_oc=Ado0KE4tBCANLJelGY6JFuC8oyR4N4a8yJTJVjSXHwanP85FrgwjNr_TnhEpLxllyzwTyCCcF4DyRd9k2wcIuMAv&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=instagram.fdel27-1.fna&_nc_gid=Lc1LkRmaI3cQlk7GjbV5cg&_nc_ss=7a22e&oh=00_Af36msyPo4ObwZB1OH1XfZkMkKYokVeZXavQOTkrqYMkcg&oe=69F6ED9A",
+    title: "Our Workshops & Webinars",
+    image: "/flyer10.png",
   },
   {
-    title: "Significant achievement Award - 2024",
+    title: "Our Workshops & Webinars",
     image: "/flyer3.jpeg",
   },
   {
-    title: "Significant achievement Award - 2024",
+    title: "Our Workshops & Webinars",
     image: "/flyer4.jpeg",
   },
   {
-    title: "Significant achievement Award - 2024",
+    title: "Our Workshops & Webinars",
     image: "/flyer5.jpeg",
   },
   {
-    title: "Significant achievement Award - 2024",
+    title: "Our Workshops & Webinars",
     image: "/flyer6.jpeg",
   },
 ]
 
 export const camp = [
   {
-    title: "Nari Shakti Award - 2026",
+    title: "Camps Conducted",
     image: "/camp5.jpeg",
   },
   {
-    title: "Significant achievement Award - 2024",
+    title: "Camps Conducted",
     image: "/camp2.jpeg",
   },
   {
-    title: "Significant achievement Award - 2024",
+    title: "Camps Conducted",
     image: "/camp3.jpeg",
   },
   {
-    title: "Significant achievement Award - 2024",
+    title: "Camps Conducted",
     image: "/camp4.jpeg",
   },
   {
-    title: "Significant achievement Award - 2024",
+    title: "Camps Conducted",
     image: "/camp1.jpeg",
   },
   {
-    title: "Significant achievement Award - 2024",
+    title: "Camps Conducted",
     image: "/camp11.jpeg",
   },
   {
-    title: "Significant achievement Award - 2024",
+    title: "Camps Conducted",
     image: "/camp7.jpeg",
   },
   {
-    title: "Significant achievement Award - 2024",
+    title: "Camps Conducted",
     image: "/camp8.jpeg",
   },
   {
-    title: "Significant achievement Award - 2024",
+    title: "Camps Conducted",
     image: "/camp9.jpeg",
   },
   {
-    title: "Significant achievement Award - 2024",
+    title: "Camps Conducted",
     image: "/camp10.jpeg",
   },
   {
-    title: "Significant achievement Award - 2024",
+    title: "Camps Conducted",
     image: "/camp6.jpeg",
   },
   {
-    title: "Significant achievement Award - 2024",
+    title: "Camps Conducted",
     image: "/camp12.png",
   },
 ]
