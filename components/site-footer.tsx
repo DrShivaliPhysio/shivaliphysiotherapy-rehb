@@ -225,7 +225,7 @@ export function SiteFooter() {
             <Heart className="h-3 w-3 text-red-500 fill-red-500 animate-pulse" />
             by{" "}
             <a
-              href="https:https://datetechsolution.store/"
+              href="https://datetechsolution.store"
               target="_blank"
               rel="noopener noreferrer"
               className="font-medium text-primary hover:underline"
