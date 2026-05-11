@@ -31,6 +31,7 @@ const mobileLinks = [
 ]
 
 function scrollToSection(e: React.MouseEvent<HTMLButtonElement>, href: string) {
+  debugger;
   e.preventDefault()
   const element = document.querySelector(href)
   if (element) {
@@ -111,8 +112,8 @@ export function SiteHeader() {
       {/* MOBILE MENU */}
       <div
         className={cn(
-          "lg:hidden border-t border-border/60 bg-background/95 backdrop-blur-xl transition-all duration-300",
-          open ? "max-h-[80vh] opacity-100" : "max-h-0 opacity-0"
+          "lg:hidden border-t border-border/60 bg-background/95 backdrop-blur-xl transition-all duration-300 overflow-hidden",
+          open ? "max-h-[80vh] opacity-100 pointer-events-auto" : "max-h-0 opacity-0 pointer-events-none"
         )}
       >
         <div className="mx-auto flex max-w-6xl flex-col gap-1 px-4 py-4 overflow-y-auto max-h-[80vh]">
