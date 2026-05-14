@@ -17,12 +17,12 @@ const fraunces = Fraunces({
 })
 
 export const metadata: Metadata = {
-  title: "Online Physiotherapy Consultation | Dr Shivali Physiotherapy Haryana",
+  title: `Best Physiotherapy Clinic in Yamunanagar | Online Physiotherapy Consultation India | Online Physiotherapy Consultation | Dr Shivali Physiotherapy Haryana`,
   verification: {
     google: "k-nJAegrzAZ3ixh4WMMvFJQhwg0Kq5AdHUZbcl8I6xo",
   },
   description:
-    "Get expert online physiotherapy consultation from Dr Shivali. Personalized treatment for back pain, neuro rehab, and recovery across Haryana and India.",
+    "Dr Shivali Physio provides expert physiotherapy treatment in Yamunanagar, Haryana and online physiotherapy consultations across India for back pain, posture correction, sports injuries, and rehabilitation. Get expert online physiotherapy consultation from Dr Shivali. Personalized treatment for back pain, neuro rehab, and recovery across Haryana and India.",
 
   keywords: [
     "online physiotherapy consultation",
@@ -31,6 +31,12 @@ export const metadata: Metadata = {
     "back pain treatment online",
     "neuro physiotherapy",
     "virtual physiotherapy session",
+    "Physiotherapist in Yamunanagar",
+    "Best physiotherapy clinic in Yamunanagar",
+    "Physiotherapy clinic in Haryana",
+    "Back pain treatment Yamunanagar",
+    "Sports injury physiotherapy Yamunanagar",
+    "Home physiotherapy in Yamunanagar",
   ],
 
   authors: [{ name: "Dr Shivali Physiotherapy" }],
