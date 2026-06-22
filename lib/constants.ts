@@ -248,7 +248,7 @@ Dr. Shivali's observation skills are remarkable she could identify even the slig
     role: "Lucknow · Chronic Pain",
     stars: "★★★★★",
     review:
-      "Dr. Shivali's clinic is a rehabilitation centre, providing perfect healthcare that improves mobility. Due to her perfect identification of my pain, I got relief from chronic pain. Her therapy and exercise help with muscle strength, and prevent bone stiffness. My session of physiotherapy with her enhances my quality of life.",
+      "Dr. Shivali's clinic is a rehabilitation centre," /*providing perfect healthcare*/+"that improves mobility. Due to her perfect identification of my pain, I got relief from chronic pain. Her therapy and exercise help with muscle strength, and prevent bone stiffness. My session of physiotherapy with her enhances my quality of life.",
   },
   {
     name: "Aman Mohan Mishra",
