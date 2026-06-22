@@ -232,6 +232,14 @@ export const Audiences = [
 ];
 
 export const Reviews = [
+   {
+    name: "Vibha",
+    role: "Mumbai · ",
+    stars: "★★★★★",
+    review:
+      `My son was experiencing shoulder hypermobility, and I was initially skeptical about online physiotherapy sessions. However, Dr. Shivali's expertise quickly changed my perspective. We saw noticeable improvements within days, and over time he became confident enough to continue the exercises independently.
+Dr. Shivali's observation skills are remarkable she could identify even the slightest misalignment during online sessions and provide precise corrections. Her dedication, knowledge, and attention to detail made a real difference. Highly recommended!`,
+  },
   {
     name: "Akshay Sinha",
     role: "Lucknow · ",
