@@ -196,7 +196,8 @@ export function SiteFooter() {
             <div>
               <div>Haryana, India</div>
               <div className="mt-1 text-xs">
-                Clinic opening soon · currently online only
+                Online consultations currently available.
+                Information about future clinic services will be announced when available.
               </div>
             </div>
           </div>

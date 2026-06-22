@@ -73,7 +73,7 @@ const QuickActions = () => {
               <Clock className="h-4 w-4 text-primary" />
             </span>
             <div>
-              <div className="text-xs text-muted-foreground leading-none">Opening Hours</div>
+              <div className="text-xs text-muted-foreground leading-none">Consultationnpm  Hours</div>
               <div className="text-sm font-semibold text-foreground leading-tight">
                 Mon–Sat 10AM–7PM
               </div>
