@@ -17,123 +17,65 @@ const fraunces = Fraunces({
 })
 
 export const metadata: Metadata = {
-  title: `Best Physiotherapy Clinic in Yamunanagar | Online Physiotherapy Consultation India | Online Physiotherapy Consultation | Dr Shivali Physiotherapy Haryana`,
+  title: "Dr. Shivali Gupta | Online Physiotherapy Consultation & Rehabilitation Services",
   verification: {
     google: "k-nJAegrzAZ3ixh4WMMvFJQhwg0Kq5AdHUZbcl8I6xo",
   },
   description:
-    "Dr Shivali Physio provides expert physiotherapy treatment in Yamunanagar, Haryana and online physiotherapy consultations across India for back pain, posture correction, sports injuries, and rehabilitation. Get expert online physiotherapy consultation from Dr Shivali. Personalized treatment for back pain, neuro rehab, and recovery across Haryana and India.",
-
+    "Dr. Shivali Gupta provides online physiotherapy consultations, rehabilitation guidance, posture correction support, neurological rehabilitation, orthopedic physiotherapy, and personalized recovery programs. Online appointments available through scheduled video consultations.",
   keywords: [
     "online physiotherapy consultation",
-    "physiotherapist in Haryana",
-    "physiotherapy at home India",
-    "back pain treatment online",
-    "neuro physiotherapy",
+    "physiotherapist in Yamunanagar",
+    "rehabilitation services",
+    "neurological physiotherapy",
+    "orthopedic physiotherapy",
+    "posture correction",
+    "pain management",
     "virtual physiotherapy session",
-    "Physiotherapist in Yamunanagar",
-    "Best physiotherapy clinic in Yamunanagar",
-    "Physiotherapy clinic in Haryana",
-    "Back pain treatment Yamunanagar",
-    "Sports injury physiotherapy Yamunanagar",
-    "Home physiotherapy in Yamunanagar",
   ],
-
-  authors: [{ name: "Dr Shivali Physiotherapy" }],
-  creator: "Dr Shivali Physiotherapy",
-
+  authors: [{ name: "Dr Shivali Gupta" }],
+  creator: "Dr Shivali Gupta",
   metadataBase: new URL("https://drshivaliphysio.com"),
-
   alternates: {
     canonical: "https://drshivaliphysio.com",
   },
-
   openGraph: {
-    title: "Online Physiotherapy Consultation | Dr Shivali",
-    description:
-      "Expert online physiotherapy sessions for pain relief and recovery. Book consultation today.",
+    title: "Dr. Shivali Gupta | Online Physiotherapy Consultation",
+    description: "Professional online physiotherapy consultations and rehabilitation guidance.",
     url: "https://drshivaliphysio.com/",
     siteName: "Dr Shivali Physiotherapy",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Dr Shivali Physiotherapy",
-      },
-    ],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Dr Shivali Physiotherapy" }],
     locale: "en_IN",
     type: "website",
   },
-
   twitter: {
     card: "summary_large_image",
-    title: "Online Physiotherapy Consultation",
-    description:
-      "Recover from pain with expert online physiotherapy sessions.",
+    title: "Dr. Shivali Gupta | Online Physiotherapy Consultation",
+    description: "Professional online physiotherapy consultations and rehabilitation guidance.",
     images: ["/og-image.png"],
-  },
-
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-    },
-  },
-
-  icons: {
-    icon: [
-      { url: "/icon-light-32x32.png", media: "(prefers-color-scheme: light)" },
-      { url: "/icon-light-32x32.png", media: "(prefers-color-scheme: dark)" },
-      { url: "/favicon.ico", type: "image/svg+xml" },
-    ],
-    apple: "/apple-icon.png",
   },
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html
-      lang="en"
-      className={`${dmSans.variable} ${fraunces.variable} bg-background`}
-    >
+    <html lang="en" className={`${dmSans.variable} ${fraunces.variable} bg-background`}>
       <body className="font-sans antialiased" suppressHydrationWarning={true}>
-        
-        {/* ✅ Structured Data (SEO Boost) */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "MedicalBusiness",
-              name: "Dr Shivali Physiotherapy",
-              description:
-                "Online physiotherapy consultation and rehabilitation services",
-              "@id": "https://drshivaliphysio.com/#organization",
-              areaServed: {
-                "@type": "AdministrativeArea",
-                name: "Haryana, India",
-              },
+              "@type": "Person",
+              name: "Dr. Shivali Gupta",
+              jobTitle: "Consultant Physiotherapist",
+              description: "Online physiotherapy consultation and rehabilitation services",
               url: "https://drshivaliphysio.com",
-              availableService: {
-                "@type": "MedicalTherapy",
-                name: "Physiotherapy",
-              },
             }),
           }}
         />
-
-        {/* ✅ FIX: Prevent footer from being hidden by StickyMobileBar */}
         <main className="pb-[calc(96px+env(safe-area-inset-bottom))] md:pb-0">
           {children}
         </main>
-
         {process.env.NODE_ENV === "production" && <Analytics />}
       </body>
     </html>

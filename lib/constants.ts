@@ -7,8 +7,7 @@ export const Constants = {
   qualifications: "Consultant Physiotherapist | MPT(Neuro) | MIAP",
   qualifications1: "DNHE | PGDHHM | CKT | CCT | CDNT | CNDT | MFR",
   qualifications2: "Cert. in  Computer Ergonomics | Cert. in Hydrotherapy Yoga Wellness Instructor",
-  heroDescription: `One-on-one online consultations and personalized recovery plans designed around your body, your pace, and your daily life. Fifteen plus years of
-   patient-first care — from Delhi to Mumbai, Lucknow & now serving patients from Haryana & Pan-India.`,
+  heroDescription: `Online physiotherapy consultations and personalized rehabilitation plans designed around your condition, lifestyle, and recovery goals. Providing professional physiotherapy guidance from Yamunanagar, Haryana through scheduled video consultations.`,
   contactNo: "+919324843597",
   yearsExperience: "15+",
   patientsTreated: "25,000+",
@@ -22,11 +21,8 @@ export const Constants = {
   email: "Physiodrshivali@gmail.com",
   aboutUsMessage: `Recovery shouldn't feel rushed. We take the time to understand your story before building your plan. Because every body is different, 
   every treatment should be too. Together, we focus on steady progress, not quick fixes. Your recovery journey is guided with care, clarity, and consistency`,
-  aboutUsDescription: `She started her career in Delhi's busy hospitals, spent several years running a private
-              practice in Mumbai,Lucknow, and today She work with patients across India from her base in Haryana.
-              Over 15+ years of experience of treating real people has taught her one thing: no two recoveries look the
-              same — and the best outcomes come from a plan that fits you.`,
-  aboutUsDescription2: "Right now, all sessions are conducted online. An in-person clinic in Haryana is opening soon for patients who prefer hands-on care.",
+  aboutUsDescription: `Dr. Shivali Gupta has worked with patients across hospitals, rehabilitation centers, and private practice settings. Today she provides online physiotherapy consultations from Yamunanagar, Haryana, helping patients improve mobility, manage pain, and support long-term recovery. Over 15+ years of experience has shown that every recovery journey is unique and deserves a personalized approach.`,
+  aboutUsDescription2: "Currently all consultations are provided through scheduled online video appointments. Information about any future physical clinic location will be updated once available.",
 
 };
 
@@ -53,7 +49,7 @@ export const AboutUsPoints = [
   {
     icon: MapPin,
     title: "Journey",
-    body: "Started in Delhi, with extensive clinical practice in Mumbai & Lucknow. Worked with patients across diverse conditions, building deep expertise in rehabilitation. Now serving patients from Haryana & Pan-India through both in-clinic and guided care. Focused on improving mobility, independence, and long-term wellness.",
+    body: "Extensive experience working with patients across multiple healthcare settings. Currently providing online physiotherapy consultations and rehabilitation guidance from Yamunanagar, Haryana, focused on improving mobility, independence, and long-term wellness.",
   },
   {
     icon: HeartHandshake,
@@ -463,7 +459,7 @@ export const Faqs = [
   },
   {
     q: "At What time can i visit the clinic?",
-    a: "Our clinic is open from 10:00 AM – 7:00 PM (Monday to Saturday). Appointments are recommended for a smooth experience.",
+    a: "Online consultation slots are generally available between 10:00 AM and 7:00 PM (Monday to Saturday). Appointments are recommended.",
   },
   {
     q: "What is the educational qualification of Dr.Shivali?",
@@ -475,11 +471,11 @@ export const Faqs = [
   },
   {
     q: "How do I book an appointment with a physiotherapist?",
-    a: "You can easily book an appointment by: Calling or WhatsApping us, Filling out the appointment form on our website or Visiting the clinic directly",
+    a: "You can easily book an appointment by calling or WhatsApping us, filling out the appointment form on our website, or scheduling an online consultation.",
   },
   {
     q: "Can I choose to have in-person or telephysiotherapy sessions?",
-    a: "Yes, we offer both in-person clinic sessions and online telephysiotherapy consultations, based on your convenience and condition.",
+    a: "Currently consultations are provided online through telephysiotherapy sessions based on your condition and convenience.",
   },
   {
     q: "How many years of experiences does she have in her field?",
@@ -502,7 +498,7 @@ export const Faqs = [
     a: "She specializes in neuro rehabilitation, pain management, posture correction, ergonomics, and functional movement training. Her approach focuses on identifying the root cause and providing personalized treatment for long-term recovery.",
   },
   {
-    q: "What all special techniques are provided at the clinic?",
+    q: "What special physiotherapy techniques are used in treatment plans?",
     a: "The clinic offers a range of advanced physiotherapy techniques, including: Dryneedling Therapy, ⁠Cupping Therapy, Myofascial Release (MFR), Neuro Development Techniques, Posture & Ergonomic Correction, Hydrotherapy, Kinesio Taping, Exercise Rehabilitation Programs, Pain Management Modalities",
   },
 ];
