@@ -1,5 +1,5 @@
-@import 'tailwindcss';
-@import 'tw-animate-css';
+@import "tailwindcss";
+@import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -154,4 +154,86 @@
   .font-serif {
     font-weight: 600;
   }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px) scale(1.1);
+  }
+
+  50% {
+    transform: translateY(-12px) scale(1.12);
+  }
+
+  100% {
+    transform: translateY(0px) scale(1.1);
+  }
+}
+
+.animate-float {
+  animation: float 8s ease-in-out infinite;
+}
+@keyframes whatsappNudge {
+  0%,
+  92%,
+  100% {
+    transform: translateX(0);
+  }
+
+  93% {
+    transform: translateX(-2px);
+  }
+
+  95% {
+    transform: translateX(3px);
+  }
+
+  97% {
+    transform: translateX(-2px);
+  }
+
+  99% {
+    transform: translateX(0);
+  }
+}
+
+.animate-whatsapp-icon {
+  animation: whatsappNudge 10s ease-in-out infinite;
+}
+@keyframes whatsappNudge {
+  0%,
+  92%,
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
+
+  93% {
+    transform: translateX(-2px) rotate(-8deg);
+  }
+
+  95% {
+    transform: translateX(3px) rotate(8deg);
+  }
+
+  97% {
+    transform: translateX(-2px) rotate(-5deg);
+  }
+
+  99% {
+    transform: translateX(0) rotate(0deg);
+  }
+}
+@keyframes glowMove {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(15px, -10px);
+  }
+}
+
+.animate-glow {
+  animation: glowMove 14s ease-in-out infinite;
 }

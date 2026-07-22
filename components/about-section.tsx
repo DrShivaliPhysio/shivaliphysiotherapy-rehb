@@ -1,13 +1,16 @@
-import Image from "next/image"
-import { AboutUsPoints, Constants, socialMediaLinks } from "@/lib/constants"
-import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip"
+import Image from "next/image";
+import { AboutUsPoints, Constants, socialMediaLinks } from "@/lib/constants";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 export function AboutSection() {
   return (
     <section id="about" className="bg-background pb-10 md:pb-10">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         <div className="grid gap-12 lg:grid-cols-[1fr_1.15fr] lg:gap-16 lg:items-center">
-          
           {/* LEFT IMAGE */}
           <div className="relative">
             <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] border border-border">
@@ -27,10 +30,18 @@ export function AboutSection() {
                   SG
                 </span>
                 <div>
-                  <div className="text-sm font-medium text-foreground">{Constants.doctorName}</div>
-                  <div className="text-xs text-muted-foreground">{Constants.qualifications}</div>
-                  <div className="text-xs text-muted-foreground">{Constants.qualifications1}</div>
-                  <div className="text-xs text-muted-foreground">{Constants.qualifications2}</div>
+                  <div className="text-sm font-medium text-foreground">
+                    {Constants.doctorName}
+                  </div>
+                  <div className="text-xs text-muted-foreground">
+                    {Constants.qualifications}
+                  </div>
+                  <div className="text-xs text-muted-foreground">
+                    {Constants.qualifications1}
+                  </div>
+                  <div className="text-xs text-muted-foreground">
+                    {Constants.qualifications2}
+                  </div>
                 </div>
               </div>
               <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
@@ -113,10 +124,9 @@ export function AboutSection() {
                 </div>
               ))}
             </div>
-
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }

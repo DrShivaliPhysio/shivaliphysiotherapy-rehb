@@ -194,7 +194,7 @@ export function SiteFooter() {
           <div className="mt-4 flex items-start gap-2.5 text-sm text-muted-foreground">
             <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary transition-transform duration-300 hover:scale-110" />
             <div>
-              <div>Haryana, India</div>
+              <div>9-10, Upper Ground, Gupta Colony, Near Kanahiya Sahib Chowk, Yamuna Nagar, Haryana 135001</div>
               <div className="mt-1 text-xs">
                 Online consultations currently available.
                 Information about future clinic services will be announced when available.

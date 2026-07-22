@@ -90,7 +90,7 @@ const QuickActions = () => {
             <div>
               <div className="text-xs text-muted-foreground leading-none">Clinic Location</div>
               <div className="text-sm font-semibold text-foreground leading-tight">
-                Opening Soon
+                9-10, Upper Ground, Gupta Colony, Near Kanahiya Sahib Chowk, Yamuna Nagar, Haryana 135001
               </div>
             </div>
           </div>
