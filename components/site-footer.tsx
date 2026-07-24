@@ -367,9 +367,8 @@ export function SiteFooter() {
                       {Constants.pincode}
                   </p>
                   <p className="text-sm font-medium text-primary">
-  View on Google Maps →
-</p>
-
+                    View on Google Maps →
+                  </p>
                   <div className="rounded-xl bg-primary/5 px-4 py-3 text-sm leading-6 text-muted-foreground">
                   Walk in during clinic hours or book an appointment for
                   personalized physiotherapy and rehabilitation care.

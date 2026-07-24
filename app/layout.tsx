@@ -1,4 +1,5 @@
-import type { Metadata } from "next"
+
+import type { Metadata, Viewport } from "next";
 import { DM_Sans, Fraunces } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
@@ -17,44 +18,72 @@ const fraunces = Fraunces({
 })
 
 export const metadata: Metadata = {
-  title: "Dr. Shivali Gupta | Online Physiotherapy Consultation & Rehabilitation Services",
+  title: "Dr. Shivali Physiotherapy & Rehabilitation Clinic | Expert Physiotherapy in Yamunanagar",
   verification: {
     google: "k-nJAegrzAZ3ixh4WMMvFJQhwg0Kq5AdHUZbcl8I6xo",
   },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   description:
-    "Dr. Shivali Gupta provides online physiotherapy consultations, rehabilitation guidance, posture correction support, neurological rehabilitation, orthopedic physiotherapy, and personalized recovery programs. Online appointments available through scheduled video consultations.",
+    "Dr. Shivali Physiotherapy & Rehabilitation Clinic in Yamunanagar provides expert physiotherapy, sports rehabilitation, neurological rehabilitation, orthopedic physiotherapy, dry needling, cupping therapy, posture correction, pain management, and personalized treatment plans. Clinic visits and online consultations available.",
   keywords: [
-    "online physiotherapy consultation",
-    "physiotherapist in Yamunanagar",
-    "rehabilitation services",
-    "neurological physiotherapy",
-    "orthopedic physiotherapy",
-    "posture correction",
-    "pain management",
-    "virtual physiotherapy session",
+    "physiotherapy clinic Yamunanagar",
+  "physiotherapist in Yamunanagar",
+  "best physiotherapist Yamunanagar",
+  "sports physiotherapy",
+  "neurological physiotherapy",
+  "orthopedic physiotherapy",
+  "dry needling",
+  "cupping therapy",
+  "pain management",
+  "rehabilitation clinic",
+  "posture correction",
+  "online physiotherapy consultation",
   ],
   authors: [{ name: "Dr Shivali Gupta" }],
   creator: "Dr Shivali Gupta",
-  metadataBase: new URL("https://drshivaliphysio.com"),
+  applicationName: "Dr. Shivali Physiotherapy",
+  formatDetection: {
+  telephone: false,
+  email: false,
+  address: false,
+},
+  metadataBase: new URL(Constants.siteUrl),
   alternates: {
-    canonical: "https://drshivaliphysio.com",
+    canonical: Constants.siteUrl,
+  },robots: {
+  index: true,
+  follow: true,
+  googleBot: {
+    index: true,
+    follow: true,
+    "max-video-preview": -1,
+    "max-image-preview": "large",
+    "max-snippet": -1,
   },
+},
   openGraph: {
-    title: "Dr. Shivali Gupta | Online Physiotherapy Consultation",
-    description: "Professional online physiotherapy consultations and rehabilitation guidance.",
-    url: "https://drshivaliphysio.com/",
+    title: "Dr. Shivali Physiotherapy & Rehabilitation Clinic | Expert Physiotherapy in Yamunanagar",
+    description: "Expert physiotherapy, rehabilitation, pain management, sports injury treatment, neurological physiotherapy, and personalized care in Yamunanagar.",
+    url: Constants.siteUrl,
     siteName: "Dr Shivali Physiotherapy",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Dr Shivali Physiotherapy" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Dr. Shivali Physiotherapy & Rehabilitation Clinic in Yamunanagar" }],
     locale: "en_IN",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dr. Shivali Gupta | Online Physiotherapy Consultation",
-    description: "Professional online physiotherapy consultations and rehabilitation guidance.",
+    title: "Dr. Shivali Physiotherapy & Rehabilitation Clinic | Expert Physiotherapy in Yamunanagar",
+    description: "Expert physiotherapy, rehabilitation, pain management, sports injury treatment, neurological physiotherapy, and personalized care in Yamunanagar.",
     images: ["/og-image.png"],
   },
 }
+export const viewport: Viewport = {
+  themeColor: "#2563eb",
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -65,11 +94,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "Person",
+              "@type": "Physician",
               name: "Dr. Shivali Gupta",
               jobTitle: "Consultant Physiotherapist",
-              description: "Online physiotherapy consultation and rehabilitation services",
-              url: "https://drshivaliphysio.com",
+              description: "Expert physiotherapy, rehabilitation, pain management, sports injury treatment, and neurological physiotherapy in Yamunanagar.",
+              url: Constants.siteUrl,
             }),
           }}
         />

@@ -31,6 +31,7 @@ export const Constants = {
   clinicTimings: "Monday – Saturday",
   clinicHours: "10:00 AM – 7:00 PM",
   googleMapLink: "YOUR_GOOGLE_MAP_LINK",
+  siteUrl: "https://drshivaliphysio.com",
 };
 
 export const KeyFacilities = [
