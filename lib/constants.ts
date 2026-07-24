@@ -24,7 +24,7 @@ export const Constants = {
   aboutUsDescription: `Dr. Shivali Gupta has over 15 years of experience in physiotherapy and rehabilitation, helping patients recover from orthopedic, neurological, sports, and post-surgical conditions. At Dr. Shivali Physiotherapy & Rehabilitation Clinic in Yamunanagar, every treatment plan is personalized to restore mobility, reduce pain, and improve quality of life.`,
   aboutUsDescription2: "Patients can visit our clinic for comprehensive physiotherapy treatment. For those unable to travel, online consultations and follow-up rehabilitation sessions are also available by appointment.",
   clinicName: "Dr. Shivali Physiotherapy & Rehabilitation Clinic",
-  clinicAddressLine1: "(9-10, Upper Ground",
+  clinicAddressLine1: "9-10, Upper Ground",
   clinicAddressLine2: "Gupta Colony, Near Kanahiya Sahib Chowk",
   city: "Yamuna Nagar, Haryana",
   pincode: "135001",
