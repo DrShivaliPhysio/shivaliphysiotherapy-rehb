@@ -46,7 +46,7 @@ export function AboutSection() {
               <div className="absolute left-4 top-4 rounded-2xl border border-white/20 bg-white/85 px-4 py-3 shadow-xl backdrop-blur-xl md:left-6 md:top-6 md:px-5 md:py-4">
 
                 <p className="text-2xl md:text-3xl font-bold text-primary">
-                  15+
+                  {Constants.yearsExperience}
                 </p>
 
                 <p className="text-xs uppercase tracking-[0.22em] text-muted-foreground">
@@ -109,7 +109,7 @@ export function AboutSection() {
               About Dr. Shivali Gupta
             </span>
 
-            <h2 className="mt-6 max-w-2xl font-serif text-4xl font-semibold leading-tight text-foreground md:text-5xl"></h2>
+            <h2 className="mt-6 max-w-2xl font-serif text-4xl font-semibold leading-tight text-foreground md:text-5xl"> Personalized Physiotherapy Care for Every Stage of Recovery</h2>
 
             <p className="mt-8 text-lg leading-9 text-muted-foreground">
               {Constants.aboutUsDescription}

@@ -34,7 +34,7 @@ export function TestimonialsSection() {
       <div className="mx-auto max-w-7xl px-4 md:px-6">
         {/* Heading */}
         <div className="max-w-3xl">
-          <span className="inline-flex rounded-full border border-primary/20 bg-primary/5 px-4 py-2 text-xs font-semibold uppercase tracking-[0.22em] text-primary">
+          <span className="inline-flex rounded-full border border-primary/20 bg-primary/5 px-4 py-2 text-xs font-semibold uppercase tracking-[0.22em] text-primary bg-background">
             Patient stories
           </span>
 

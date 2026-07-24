@@ -2,9 +2,7 @@ import { Flyer } from "@/lib/constants"
 
 export function FlyerSection() {
   return (
-    <section
-      id="flyer"
-      className="relative overflow-hidden py-24 lg:py-32"
+    <section id="flyer" className="relative overflow-hidden py-24 lg:py-32 bg-secondary"
     >
       {/* Background Glow */}
       <div className="absolute inset-0 -z-10">

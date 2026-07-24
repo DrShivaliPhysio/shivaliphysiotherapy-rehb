@@ -33,8 +33,9 @@ export function SiteFooter() {
             </h2>
 
             <p className="mt-5 max-w-md text-base leading-8 text-muted-foreground">
-              Book a consultation, ask a quick question, or join the waitlist
-              for the upcoming Haryana clinic.
+              Ready to Start Your Recovery?
+
+              Book an appointment, ask a question, or contact us to begin your physiotherapy journey. Whether you need pain relief, rehabilitation, or preventive care, we're here to help.
             </p>
           </div>
 
@@ -83,7 +84,7 @@ export function SiteFooter() {
 
                 <div>
                   <div className="text-xs text-muted-foreground">
-                    Call
+                    Call Our Clinic
                   </div>
 
                   <div className="text-sm font-medium text-foreground">
@@ -93,7 +94,8 @@ export function SiteFooter() {
               </div>
 
               <span className="text-xs text-muted-foreground">
-                Mon–Sat
+                {Constants.clinicTimings}
+                {Constants.clinicHours}
               </span>
             </a>
 
@@ -144,7 +146,7 @@ export function SiteFooter() {
 
                 <div>
                   <div className="text-xs text-muted-foreground">
-                    WhatsApp
+                    Chat on WhatsApp
                   </div>
 
                   <div className="text-sm font-medium text-foreground">
@@ -200,7 +202,7 @@ export function SiteFooter() {
 
                 <div>
                   <div className="text-xs text-muted-foreground">
-                    Email
+                    Email Us
                   </div>
 
                   <div className="text-sm font-medium text-foreground">
@@ -348,23 +350,30 @@ export function SiteFooter() {
                   <MapPin className="h-5 w-5 text-primary" />
                 </span>
 
-                <div className="space-y-3">
+                  <a
+                      href={Constants.googleMapLink}
+                        target="_blank"
+                      rel="noopener noreferrer"
+                      className="space-y-3 block transition hover:opacity-90"
+                    >
                   <p className="leading-7 text-muted-foreground">
-                    9-10, Upper Ground, Gupta Colony,
-                    <br />
-                    Near Kanahiya Sahib Chowk,
-                    <br />
-                    Yamuna Nagar,
-                    <br />
-                    Haryana 135001
+                      {Constants.clinicAddressLine1}
+                      <br />
+                      {Constants.clinicAddressLine2}
+                      <br />
+                      {Constants.city}
+                      <br />
+                      {Constants.pincode}
                   </p>
+                  <p className="text-sm font-medium text-primary">
+  View on Google Maps →
+</p>
 
-                  <div className="rounded-xl bg-primary/5 px-4 py-3 text-sm text-muted-foreground">
-                    Online consultations are available.
-                    <br />
-                    Future clinic services will be announced soon.
+                  <div className="rounded-xl bg-primary/5 px-4 py-3 text-sm leading-6 text-muted-foreground">
+                  Walk in during clinic hours or book an appointment for
+                  personalized physiotherapy and rehabilitation care.
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           </div>

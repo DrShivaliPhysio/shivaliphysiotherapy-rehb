@@ -7,12 +7,12 @@ export const Constants = {
   qualifications: "Consultant Physiotherapist | MPT(Neuro) | MIAP",
   qualifications1: "DNHE | PGDHHM | CKT | CCT | CDNT | CNDT | MFR",
   qualifications2: "Cert. in  Computer Ergonomics | Cert. in Hydrotherapy Yoga Wellness Instructor",
-  heroDescription: `Online physiotherapy consultations and personalized rehabilitation plans designed around your condition, lifestyle, and recovery goals. Providing professional physiotherapy guidance from Yamunanagar, Haryana through scheduled video consultations.`,
+  heroDescription: `Experience expert physiotherapy and rehabilitation at Dr. Shivali Physiotherapy & Rehabilitation Clinic. Visit our clinic in Yamunanagar for hands-on treatment or book an online consultation for personalized care from the comfort of your home.`,
   contactNo: "+919324843597",
   yearsExperience: "15+",
   patientsTreated: "25,000+",
   patientRating: "4.9/5",
-  availableSlots: "4",
+  availableSlots: "Mon–Sat",
   instaHandle: "@drshivali_physiotherapyclinic",
   instaHandleLink: "https://www.instagram.com/drshivali_physiotherapyclinic?igsh=MTh6cXUxMmgwYWZ4",
   facebookLink: "https://www.facebook.com/share/1EBVLVfzW8/?mibextid=wwXIfr",
@@ -21,16 +21,23 @@ export const Constants = {
   email: "Physiodrshivali@gmail.com",
   aboutUsMessage: `Recovery shouldn't feel rushed. We take the time to understand your story before building your plan. Because every body is different, 
   every treatment should be too. Together, we focus on steady progress, not quick fixes. Your recovery journey is guided with care, clarity, and consistency`,
-  aboutUsDescription: `Dr. Shivali Gupta has worked with patients across hospitals, rehabilitation centers, and private practice settings. Today she provides online physiotherapy consultations from Yamunanagar, Haryana, helping patients improve mobility, manage pain, and support long-term recovery. Over 15+ years of experience has shown that every recovery journey is unique and deserves a personalized approach.`,
-  aboutUsDescription2: "Currently all consultations are provided through scheduled online video appointments. Information about any future physical clinic location will be updated once available.",
-
+  aboutUsDescription: `Dr. Shivali Gupta has over 15 years of experience in physiotherapy and rehabilitation, helping patients recover from orthopedic, neurological, sports, and post-surgical conditions. At Dr. Shivali Physiotherapy & Rehabilitation Clinic in Yamunanagar, every treatment plan is personalized to restore mobility, reduce pain, and improve quality of life.`,
+  aboutUsDescription2: "Patients can visit our clinic for comprehensive physiotherapy treatment. For those unable to travel, online consultations and follow-up rehabilitation sessions are also available by appointment.",
+  clinicName: "Dr. Shivali Physiotherapy & Rehabilitation Clinic",
+  clinicAddressLine1: "Gupta Colony",
+  clinicAddressLine2: "Near Kanahiya Sahib Chowk",
+  city: "Yamunanagar, Haryana",
+  pincode: "135001",
+  clinicTimings: "Monday – Saturday",
+  clinicHours: "10:00 AM – 7:00 PM",
+  googleMapLink: "YOUR_GOOGLE_MAP_LINK",
 };
 
 export const KeyFacilities = [
-  "Video consultations on your schedule",
-  "Custom home-exercise plans",
-  "Follow-ups that actually follow up",
-  "No clinic commute, no waiting rooms",
+  "Advanced Physiotherapy Equipment",
+  "Personalized Treatment Plans",
+  "Comfortable Clinic Environment",
+  "Online Consultation Available",
 ]
 
 export const AboutUsPoints = [
@@ -49,12 +56,12 @@ export const AboutUsPoints = [
   {
     icon: MapPin,
     title: "Journey",
-    body: "Extensive experience working with patients across multiple healthcare settings. Currently providing online physiotherapy consultations and rehabilitation guidance from Yamunanagar, Haryana, focused on improving mobility, independence, and long-term wellness.",
+    body: "Serving patients at Dr. Shivali Physiotherapy & Rehabilitation Clinic in Yamunanagar with evidence-based physiotherapy treatments. Online consultations are also available for patients who cannot visit the clinic.",
   },
   {
     icon: HeartHandshake,
     title: "Approach",
-    body: "Patient-first approach with dedicated, hands-on attention in a virtual setting. Customized treatment plans designed around your body, goals, and daily routine. Focused on delivering practical, effective, and sustainable results. Continuous guidance and progress tracking to ensure optimal recovery.",
+    body: "Patient-first approach with comprehensive in-clinic assessment, hands-on therapy, personalized rehabilitation programs, and continuous follow-up. Online consultations are also available whenever required.",
   },
 ];
 
@@ -118,12 +125,7 @@ export const Services = [
     icon: Computer,
     title: "Computer Ergonomics Consultation",
     body: "Optimize your workstation, posture, and daily habits to reduce neck pain, back pain, wrist strain, eye fatigue, and productivity loss.",
-  },
-  {
-    icon: Video,
-    title: "Online Physiotherapy Consultation",
-    body: "A focused one-on-one video session to assess your condition, answer questions, and map out next steps.",
-  },
+  },  
   {
     icon: Brain,
     title: "Stroke Rehabilitation",
@@ -138,6 +140,11 @@ export const Services = [
     icon: Footprints,
     title: "Balance & Gait Training",
     body: "Fall prevention. Walking pattern correction",
+  },
+  {
+    icon: Video,
+    title: "Online Physiotherapy Consultation",
+    body: "A focused one-on-one video session to assess your condition, answer questions, and map out next steps.",
   },
 ];
 
@@ -458,8 +465,8 @@ export const Faqs = [
     a: "No. You can approach a physiotherapist directly without prescription. Physiotherapy is considered a primary healthcare service, and individuals can usually directly access a physiotherapist without a referral or prescription. Physiotherapists are trained to assess and treat a wide range of musculoskeletal and neurological conditions.",
   },
   {
-    q: "At What time can i visit the clinic?",
-    a: "Online consultation slots are generally available between 10:00 AM and 7:00 PM (Monday to Saturday). Appointments are recommended.",
+    q: "What are the clinic timings?",
+    a: "Our clinic is open Monday to Saturday from 10:00 AM to 7:00 PM. Appointments are recommended for a smooth consultation experience. Online consultation appointments are also available on request.",
   },
   {
     q: "What is the educational qualification of Dr.Shivali?",
@@ -471,11 +478,11 @@ export const Faqs = [
   },
   {
     q: "How do I book an appointment with a physiotherapist?",
-    a: "You can easily book an appointment by calling or WhatsApping us, filling out the appointment form on our website, or scheduling an online consultation.",
+    a: "You can book an appointment by calling or WhatsApping us or by filling out the appointment form on our website. You may choose to visit our clinic for in-person treatment or schedule an online consultation if you're unable to visit.",
   },
   {
-    q: "Can I choose to have in-person or telephysiotherapy sessions?",
-    a: "Currently consultations are provided online through telephysiotherapy sessions based on your condition and convenience.",
+    q: "Can I choose between clinic visits and online consultations?",
+    a: "Yes. Patients can visit our clinic for comprehensive in-person physiotherapy treatment or book an online consultation, depending on their condition, convenience, and treatment requirements.",
   },
   {
     q: "How many years of experiences does she have in her field?",

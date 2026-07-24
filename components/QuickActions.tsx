@@ -42,12 +42,12 @@ const QuickActions = () => {
       clickable: false,
     },
     {
-      title: "Clinic Location",
-      value: "Gupta Colony",
-      subtitle:
-        "Near Kanahiya Sahib Chowk, Yamuna Nagar",
+      title: "Clinic Address",
+      value: Constants.clinicAddressLine1,
+      subtitle: `${Constants.clinicAddressLine2}, ${Constants.city}`,
+      href: Constants.googleMapLink,
+      clickable: true,
       icon: MapPin,
-      clickable: false,
     },
   ]
 

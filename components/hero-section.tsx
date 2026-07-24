@@ -99,7 +99,7 @@ export function HeroSection() {
               </span>
 
               <span className="text-sm font-semibold text-emerald-700">
-                Online Consultation Available
+                In-Clinic & Online Physiotherapy
               </span>
             </div>
 
@@ -162,7 +162,7 @@ export function HeroSection() {
 ">
                 <Link href="https://docs.google.com/forms/d/e/1FAIpQLScRSWRfnJEsaEUr6a2m3WK-A2Mgn2QLGQvM-qWodkUF56-_dw/viewform">
                   <Calendar className="mr-2 h-5 w-5" />
-                  Book Consultation
+                  Book Clinic Appointment
                   <ArrowRight
                     className="
     ml-2
@@ -380,7 +380,7 @@ hover:border-green-300
                   </div>
                   <div>
                     <p className="text-lg font-semibold text-slate-900">
-                      4.9 / 5
+                      {Constants.patientRating}
                     </p>
                     <p className="text-sm text-slate-500">
                       Google Rating
