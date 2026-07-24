@@ -231,7 +231,7 @@ export const Reviews = [
    {
     name: "Vibha",
     role: "Mumbai · ",
-    stars: "★★★★★",
+    stars: 5,
     review:
       `My son was experiencing shoulder hypermobility, and I was initially skeptical about online physiotherapy sessions. However, Dr. Shivali's expertise quickly changed my perspective. We saw noticeable improvements within days, and over time he became confident enough to continue the exercises independently.
 Dr. Shivali's observation skills are remarkable she could identify even the slightest misalignment during online sessions and provide precise corrections. Her dedication, knowledge, and attention to detail made a real difference. Highly recommended!`,
@@ -239,43 +239,43 @@ Dr. Shivali's observation skills are remarkable she could identify even the slig
   {
     name: "Akshay Sinha",
     role: "Lucknow · ",
-    stars: "★★★★★",
+    stars: 5,
     review:
       "Dr Shivali Is an exceptional professional. She demonstrated remarkable empathy and gave full attention to my specific needs, which resulted in a truly customized treatment plan. What truly sets her apart is her focus on long-term, sustainable solutions. Not only did she help me relieve my pain, but she also provided invaluable advice for overall healthy living. Her expertise was evident, and her consistent encouragement empowered me to diligently work on my exercises, leading to significant improvements in my core strength and overall recovery. I'm very grateful for her comprehensive and thoughtful care.",
   },
   {
     name: "Sarika Gautam",
     role: "Lucknow · Chronic Pain",
-    stars: "★★★★★",
+    stars: 5,
     review:
       "Dr. Shivali's clinic is a rehabilitation centre," /*providing perfect healthcare*/+"that improves mobility. Due to her perfect identification of my pain, I got relief from chronic pain. Her therapy and exercise help with muscle strength, and prevent bone stiffness. My session of physiotherapy with her enhances my quality of life.",
   },
   {
     name: "Aman Mohan Mishra",
     role: "Lucknow· ",
-    stars: "★★★★★",
+    stars: 5,
     review:
       `A Life Saver! 
-      Dr. Shivali and her clinic have truly been a life saviour for me. I was struggling with severe occipital-cervical pain, frequent migraines, and intense back muscle spasms. Her treatment not only provided relief but helped me recover in a way that felt holistic and sustainable. What stood out to me was her calm and kind approach—she genuinely listens, explains the root causes clearly, and creates a treatment plan that is both effective and affordable. Thanks to Dr. Shivali, I’m deeply grateful for her dedication and highly recommend her clinic to anyone dealing with chronic pain or physical rehabilitation needs.`,
+      Dr. Shivali and her clinic have truly been a life saviour for me. I was struggling with severe occipital-cervical pain, frequent migraines, and intense back muscle spasms. Her treatment not only provided relief but helped me recover in a way that felt holistic and sustainable. What stood out to me was her calm and kind approach—she genuinely listens, explains the root causes clearly, and creates a treatment plan that is both effective and affordable. Thanks to Dr. Shivali, I’m deeply grateful for her dedication and highly recommend her clinic to anyone dealing with chronic pain or physical rehabilitation needs.  `,
   },
   {
     name: "Vanchhit Pratap Singh",
     role: "Lucknow· ",
-    stars: "★★★★★",
+    stars: 5,
     review:
       `I had a great experience with Dr Shivali . She is professional, knowledgeable, and truly attentive to my needs. The treatment plan was well-explained and tailored specifically for my condition. Thanks for her guidance and care, I’ve seen significant improvement and feel much better now`,
   },
   {
     name: "Praveen Kumar Yaadav",
     role: "Lucknow· ",
-    stars: "★★★★★",
+    stars: 5,
     review:
       `I felt that Dr Shivali truly listened to my concerns and tailored the treatment to my specific needs. The clinic was clean and well-equipped. I was impressed by Dr.Shivali's expertise in physiotherapy.`,
   },
   {
     name: "Raksha Gupta",
     role: "Lucknow· ",
-    stars: "★★★★★",
+    stars: 5,
     review:
       `I had the pleasure of receiving physiotherapy services from Dr. Shivali, and I am extremely delighted with the results. I was facing spondylosis, a challenging health issue, and thanks to Dr. Shivali's expertise and dedication, I am now fully relieved.
       She demonstrated exceptional skills in diagnosing and treating my spondylosis. The personalized treatment plan and exercises tailored to my needs were highly effective. What sets her apart is the genuine care and concern she showed throughout my sessions.
@@ -287,7 +287,7 @@ Dr. Shivali's observation skills are remarkable she could identify even the slig
   {
     name: "Hamarna Marolia",
     role: "Mumbai· ",
-    stars: "★★★★★",
+    stars: 5,
     review:
       `I underwent ACL surgery and had the privilege of being coached Dr. Shivali for my rehabilitation. Her expertise and personalized approach made the recovery process smooth and effective.
       Dr. Shivali's guidance was instrumental in my post-surgery journey, and her tailored physiotherapy sessions were precisely what I needed. She is highly skilled, compassionate, creating a supportive environment that significantly contributed to my healing.
@@ -296,21 +296,21 @@ Dr. Shivali's observation skills are remarkable she could identify even the slig
   {
     name: "Prasanna Sarwate",
     role: "Mumbai· ",
-    stars: "★★★★★",
+    stars: 5,
     review:
       `Thanks Dr. for your commitment and the way you treated my mother, superb care and personal service with high level of professionalism. I would 100per recommend her who is in need.`,
   },
   {
     name: "Swapneil Thakur",
     role: "Mumbai· ",
-    stars: "★★★★★",
+    stars: 5,
     review:
       `She has great knowledge of the body injuried. She helped me recover from many injuries likw tennis elbow, knee ligament tear, miniscus tear and muscles tear.`,
   },
   {
     name: "Chhaye Nakhe",
     role: "Mumbai· ",
-    stars: "★★★★★",
+    stars: 5,
     review:
       `My mother-in-law was treated by Dr. Shivali after her knee replacement operation of both the legs at the same time. Dr. Shivali did an excellent job.
 
@@ -321,14 +321,14 @@ Highly recommended!!!`,
   {
     name: "Hetal Ved",
     role: "Mumbai· ",
-    stars: "★★★★★",
+    stars: 5,
     review:
       `I have been going to Dr. Shivali for the past 6-7 years and she has always been excellent with her work. She patient-fully explains all the diagnosis, exercises and after-care to be taken. She is experienced, sweet and thorough in her work.`,
   },
   {
     name: "Jatin Shah",
     role: "Mumbai· ",
-    stars: "★★★★★",
+    stars: 5,
     review:
       `Dr Shivani took physiotherapy sessions for my Father and Mother after their knee replacement surgery. Her professional experience along with her friendly and approachable demeanor was really impressive. I remember everyday in morning when she came she would ask my father about all the exercises she'd assigned the day before and motivate him if he would miss any of them. Throughout the sessions she'd be chatting to keep them engaged so they don't feel the pain. Dr Shivani's humble nature and her assessment of patient's medical condition was remarkable. In a brief the Orthopedic doctor fixed the legs but Dr Shivani was the one to make my parents walk again.
       Thank you Doctor!!`,
@@ -336,14 +336,14 @@ Highly recommended!!!`,
   {
     name: "Zainab Malak",
     role: "Mumbai· ",
-    stars: "★★★★★",
+    stars: 5,
     review:
       `Dr Shivali has been treating my mom Inlaw from past 7-Byrs. My mom Inlaw is Asthmatic, each time she gets severe attack it's Dr Shivali at rescue. She is dedicated in her work. Highly recommend.`,
   },
   {
     name: "Sangeeta Somalya",
     role: "Mumbai· ",
-    stars: "★★★★★",
+    stars: 5,
     review:
       `Dr. Shivali Gupta is a very calm& confident physiotherapist in her work approach Her knowledge & understanding is very reassuring. Firstly my right hand was got fracture. Secondly I was operated my right knee surgery. In both case she provides treatment really Easy & effective. Making me fit & to do my activities. Very happy & satisfied with Dr. Shivali. Thankful to Dr. Shivali Gupta.`,
   },

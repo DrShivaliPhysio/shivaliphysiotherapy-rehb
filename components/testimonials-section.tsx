@@ -1,38 +1,67 @@
 import { Reviews } from "@/lib/constants"
-import { Quote } from "lucide-react"
+import { Quote, Star } from "lucide-react"
+
+function RatingStars({ rating }: { rating: number }) {
+  return (
+    <div className="mt-4 flex gap-1">
+      {Array.from({ length: 5 }).map((_, i) => (
+        <Star
+          key={i}
+          className={
+            i < Math.floor(rating)
+              ? "h-4 w-4 fill-yellow-400 text-yellow-400"
+              : "h-4 w-4 text-yellow-400"
+          }
+        />
+      ))}
+    </div>
+  )
+}
 
 export function TestimonialsSection() {
   const [featured, ...rest] = Reviews
 
   return (
-    <section id="testimonials" className="bg-secondary py-14">
-      <div className="mx-auto max-w-6xl px-4 md:px-6">
+    <section
+      id="testimonials"
+      className="relative overflow-hidden bg-secondary py-24 lg:py-32"
+    >
+      <div className="absolute inset-0 -z-10">
+        <div className="absolute left-0 top-24 h-80 w-80 rounded-full bg-primary/5 blur-3xl" />
+        <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-white/30 blur-3xl" />
+      </div>
 
+      <div className="mx-auto max-w-7xl px-4 md:px-6">
         {/* Heading */}
-        <div className="max-w-2xl">
-          <span className="text-xs font-medium uppercase tracking-[0.14em] text-primary">
+        <div className="max-w-3xl">
+          <span className="inline-flex rounded-full border border-primary/20 bg-primary/5 px-4 py-2 text-xs font-semibold uppercase tracking-[0.22em] text-primary">
             Patient stories
           </span>
-          <h2 className="mt-3 font-serif text-3xl md:text-4xl text-foreground">
+
+          <h2 className="mt-5 font-serif text-4xl font-semibold leading-tight text-foreground md:text-5xl">
             Real words from real patients.
           </h2>
         </div>
 
-        {/* ⭐ Featured Testimonial */}
-        <div className="mt-10">
-          <div className="rounded-3xl border border-primary/20 bg-background p-8 shadow-md hover:shadow-xl transition-all duration-300">
-            <Quote className="h-7 w-7 text-primary opacity-70" />
+        {/* Featured Testimonial */}
+        <div className="mt-10 max-w-5xl">
+          <div className="group relative overflow-hidden rounded-[2rem] border border-border/60 bg-background/95 p-8 backdrop-blur-xl shadow-xl transition-all duration-500 hover:-translate-y-2 hover:border-primary/30 hover:shadow-2xl">
+            <div className="absolute left-0 top-0 h-1 w-0 bg-primary transition-all duration-500 group-hover:w-full" />
 
-            <div className="flex gap-1 mt-3 text-yellow-500 text-sm">
-              {featured.stars}
+            <div className="absolute -right-20 -top-20 h-48 w-48 rounded-full bg-primary/10 opacity-0 blur-3xl transition-opacity duration-500 group-hover:opacity-100" />
+
+            <div className="flex h-16 w-16 items-center justify-center rounded-[1.75rem] bg-gradient-to-br from-primary/15 to-primary/5 shadow-inner">
+              <Quote className="h-8 w-8 text-primary" />
             </div>
 
-            <blockquote className="mt-4 text-lg leading-8 text-foreground">
+            <RatingStars rating={featured.stars} />
+
+            <blockquote className="mt-6 text-xl leading-9 text-foreground">
               "{featured.review}"
             </blockquote>
 
-            <div className="mt-6 flex items-center gap-4 border-t border-border pt-4">
-              <span className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary font-semibold">
+            <div className="mt-6 flex items-center gap-4 border-t border-border/60 pt-4">
+              <span className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 font-semibold text-primary">
                 {featured.name
                   .split(" ")
                   .map((p) => p[0])
@@ -44,6 +73,7 @@ export function TestimonialsSection() {
                 <div className="font-medium text-foreground">
                   {featured.name}
                 </div>
+
                 <div className="text-sm text-muted-foreground">
                   {featured.role}
                 </div>
@@ -52,47 +82,42 @@ export function TestimonialsSection() {
           </div>
         </div>
 
-        {/* 🧾 Grid Testimonials */}
-        <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+        {/* Grid Testimonials */}
+        <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {rest.map((r) => (
             <figure
               key={r.name}
-              className="group flex flex-col rounded-2xl border border-border bg-background transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden"
+              className="group flex flex-col overflow-hidden rounded-[1.75rem] border border-border/60 bg-background/95 backdrop-blur-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
             >
-              {/* ✅ Content Area */}
-              <div className="relative p-6 flex-1">
-
-                {/* Quote Icon */}
-                <Quote className="h-5 w-5 text-primary opacity-70" />
-
-                {/* Stars */}
-                <div className="flex gap-1 mt-2 text-yellow-500 text-xs">
-                  {r.stars}
+              {/* Content */}
+              <div className="relative flex-1 p-7">
+                <div className="flex h-12 w-12 items-center justify-center rounded-[1rem] bg-gradient-to-br from-primary/15 to-primary/5 shadow-inner">
+                  <Quote className="h-5 w-5 text-primary" />
                 </div>
 
-                {/* Default Clamped Text */}
-                <blockquote className="mt-4 text-[0.95rem] leading-7 text-foreground line-clamp-5 group-hover:opacity-0 transition-opacity duration-200">
+                <RatingStars rating={r.stars} />
+
+                <blockquote className="mt-4 line-clamp-5 text-[0.95rem] leading-7 text-foreground transition-opacity duration-200 group-hover:opacity-0">
                   "{r.review}"
                 </blockquote>
 
-                {/* 🔥 Hover Full Text Overlay (ONLY inside content area) */}
-                <div className="absolute inset-0 bg-background/95 backdrop-blur-sm p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col">
-                  
-                  <Quote className="h-5 w-5 text-primary opacity-70" />
-
-                  <div className="flex gap-1 mt-2 text-yellow-500 text-xs">
-                    {r.stars}
+                {/* Hover Overlay */}
+                <div className="absolute inset-0 flex flex-col bg-background/95 p-7 opacity-0 backdrop-blur-xl transition-opacity duration-300 group-hover:opacity-100">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-[1rem] bg-gradient-to-br from-primary/15 to-primary/5 shadow-inner">
+                    <Quote className="h-5 w-5 text-primary" />
                   </div>
 
-                  <p className="mt-4 text-[0.95rem] leading-7 text-foreground overflow-y-auto pr-2 h-full">
+                  <RatingStars rating={r.stars} />
+
+                  <p className="mt-4 h-full overflow-y-auto pr-2 text-[0.95rem] leading-7 text-foreground">
                     "{r.review}"
                   </p>
                 </div>
               </div>
 
-              {/* ✅ Footer (ALWAYS VISIBLE, NEVER OVERLAPPED) */}
-              <figcaption className="flex items-center gap-3 border-t border-border p-4 bg-background">
-                <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary font-semibold text-sm">
+              {/* Footer */}
+              <figcaption className="flex items-center gap-3 border-t border-border/60 bg-background/95 p-4 backdrop-blur-xl">
+                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-sm font-semibold text-primary">
                   {r.name
                     .split(" ")
                     .map((p) => p[0])
@@ -104,6 +129,7 @@ export function TestimonialsSection() {
                   <div className="text-sm font-medium text-foreground">
                     {r.name}
                   </div>
+
                   <div className="text-xs text-muted-foreground">
                     {r.role}
                   </div>
@@ -112,7 +138,6 @@ export function TestimonialsSection() {
             </figure>
           ))}
         </div>
-
       </div>
     </section>
   )

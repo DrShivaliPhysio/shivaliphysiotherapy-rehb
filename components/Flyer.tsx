@@ -1,38 +1,87 @@
-import { Flyer, Services, SpecialServices } from "@/lib/constants";
-import { ArrowUpRight } from "lucide-react";
-
-
-
+import { Flyer } from "@/lib/constants"
 
 export function FlyerSection() {
   return (
-    <section id="flyer" className="bg-secondary py-10 md:py-10">
-      <div className="mx-auto max-w-12xl px-4 md:px-6">
-        <div className="flex flex-col items-start gap-4 md:flex-row md:items-end md:justify-between">
-          <div className="max-w-2xl">
-            <span className="text-xs font-medium uppercase tracking-[0.14em] text-primary">Our Workshops & Webinars</span>
-            <h2 className="mt-3 text-pretty font-serif text-3xl font-medium leading-tight text-foreground md:text-4xl">
-              Clear, trusted care — shared in a simple way.
-            </h2>
-          </div>
-          <p className="max-w-sm text-sm leading-relaxed text-muted-foreground">
-            Everything you need to know, from treatments to recovery guidance, in one place.
+    <section
+      id="flyer"
+      className="relative overflow-hidden py-24 lg:py-32"
+    >
+      {/* Background Glow */}
+      <div className="absolute inset-0 -z-10">
+        <div className="absolute left-0 top-24 h-80 w-80 rounded-full bg-primary/5 blur-3xl" />
+        <div className="absolute right-0 bottom-10 h-96 w-96 rounded-full bg-primary/5 blur-3xl" />
+      </div>
+
+      <div className="mx-auto max-w-7xl px-4 md:px-6">
+
+        {/* Header */}
+        <div className="mx-auto max-w-3xl text-center">
+          <span className="inline-flex rounded-full border border-primary/20 bg-primary/5 px-4 py-2 text-xs font-semibold uppercase tracking-[0.22em] text-primary">
+            Workshops & Webinars
+          </span>
+
+          <h2 className="mt-6 font-serif text-4xl font-semibold leading-tight text-foreground md:text-5xl">
+            Learn, Recover & Stay Healthy
+          </h2>
+
+          <p className="mt-6 text-lg leading-8 text-muted-foreground">
+            Explore our educational workshops and awareness sessions designed to
+            help you understand your body, prevent injuries, and recover with
+            confidence.
           </p>
         </div>
-        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+
+        {/* Flyers */}
+        <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {Flyer.map((service) => (
             <article
               key={service.title}
-              className="group flex flex-col rounded-2xl border border-border bg-background p-6 transition-all hover:-translate-y-0.5 hover:shadow-[0_12px_40px_-20px_rgb(58_122_140_/_0.25)]"
+              className="
+                group
+                overflow-hidden
+                rounded-[2rem]
+                border
+                border-border/60
+                bg-background/95
+                backdrop-blur-xl
+                shadow-sm
+                transition-all
+                duration-500
+                hover:-translate-y-2
+                hover:border-primary/30
+                hover:shadow-2xl
+              "
             >
-              <div className="w-full overflow-hidden rounded-xl aspect-[4/5]">
-  <img
-    src={service.image}
-    alt={service.title}
-    className="w-full h-full object-cover"
-  />
-</div>
-              {/* <img src={service.image} alt={service.title} ></img> */}
+              <div className="relative overflow-hidden">
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  className="
+                    aspect-[4/5]
+                    w-full
+                    object-cover
+                    transition-transform
+                    duration-700
+                    group-hover:scale-105
+                  "
+                />
+
+                {/* Overlay */}
+                <div
+                  className="
+                    absolute
+                    inset-0
+                    bg-gradient-to-t
+                    from-black/25
+                    via-transparent
+                    to-transparent
+                    opacity-0
+                    transition-opacity
+                    duration-500
+                    group-hover:opacity-100
+                  "
+                />
+              </div>
             </article>
           ))}
         </div>

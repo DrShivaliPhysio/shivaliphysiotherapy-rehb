@@ -1,10 +1,6 @@
 import Image from "next/image";
 import { AboutUsPoints, Constants, socialMediaLinks } from "@/lib/constants";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
+import {Tooltip, TooltipContent, TooltipTrigger} from "@/components/ui/tooltip";
 
 export function AboutSection() {
   return (
