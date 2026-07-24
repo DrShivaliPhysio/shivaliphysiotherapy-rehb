@@ -8,125 +8,265 @@ import {
 
 export function AboutSection() {
   return (
-    <section id="about" className="bg-background pb-10 md:pb-10">
-      <div className="mx-auto max-w-6xl px-4 md:px-6">
-        <div className="grid gap-12 lg:grid-cols-[1fr_1.15fr] lg:gap-16 lg:items-center">
-          {/* LEFT IMAGE */}
+    <section
+      id="about"
+      className="relative overflow-hidden bg-secondary pt-40 pb-24 lg:pt-32 lg:pb-32">
+      {/* Background */}
+
+      <div className="absolute inset-0 -z-10">
+        <div className="absolute left-0 top-24 h-72 w-72 rounded-full bg-primary/5 blur-3xl" />
+        <div className="absolute right-0 bottom-0 h-80 w-80 rounded-full bg-sky-400/5 blur-3xl" />
+      </div>
+
+      <div className="mx-auto max-w-7xl px-5 lg:px-8">
+        <div className="grid items-center gap-20 lg:grid-cols-[0.95fr_1.05fr]">
+
+          {/* LEFT */}
+
           <div className="relative">
-            <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] border border-border">
-              <Image
-                src="/about-consultation.jpeg"
-                alt="Dr. Shivali Gupta during an online physiotherapy consultation"
-                fill
-                sizes="(min-width: 1024px) 480px, 90vw"
-                className="object-cover"
-              />
+
+            {/* Glow */}
+
+            <div className="absolute -left-10 top-16 h-72 w-72 rounded-full bg-primary/10 blur-[90px]" />
+
+            {/* Image */}
+
+            <div className="group relative overflow-hidden rounded-[2rem] md:rounded-[2.5rem] border border-border/60 shadow-2xl">
+
+              <div className="relative aspect-[4/5]">
+                <Image
+                  src="/about-consultation.jpeg"
+                  alt="Dr. Shivali Gupta"
+                  fill
+                  sizes="(min-width:1024px) 500px,100vw"
+                  className="object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+              </div>
+
+              <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
+
+              {/* Experience */}
+
+              <div className="absolute left-4 top-4 rounded-2xl border border-white/20 bg-white/85 px-4 py-3 shadow-xl backdrop-blur-xl md:left-6 md:top-6 md:px-5 md:py-4">
+
+                <p className="text-2xl md:text-3xl font-bold text-primary">
+                  15+
+                </p>
+
+                <p className="text-xs uppercase tracking-[0.22em] text-muted-foreground">
+                  Years Experience
+                </p>
+
+              </div>
+
             </div>
 
-            {/* INFO CARD */}
-            <div className="md:absolute mt-10 md:mt-0 md:-bottom-6 left-6 right-6 rounded-2xl border border-border bg-background p-5 shadow-sm md:-bottom-8 md:left-8 md:right-12">
-              <div className="flex items-center gap-3">
-                <span className="flex h-10 w-10 items-center justify-center rounded-full bg-secondary font-serif text-primary">
+            {/* Floating Card */}
+
+            <div className="relative z-10 mx-4 -mt-10 md:mx-8 md:-mt-16 rounded-[1.5rem] border border-border/60 bg-background/95 p-5 shadow-2xl backdrop-blur-xl">
+
+              <div className="flex items-start gap-4">
+
+                <div className="flex h-12 w-12 md:h-14 md:w-14 items-center justify-center rounded-xl bg-gradient-to-br from-primary/20 to-primary/5 text-lg md:text-xl font-bold text-primary">
                   SG
-                </span>
-                <div>
-                  <div className="text-sm font-medium text-foreground">
-                    {Constants.doctorName}
-                  </div>
-                  <div className="text-xs text-muted-foreground">
-                    {Constants.qualifications}
-                  </div>
-                  <div className="text-xs text-muted-foreground">
-                    {Constants.qualifications1}
-                  </div>
-                  <div className="text-xs text-muted-foreground">
-                    {Constants.qualifications2}
-                  </div>
                 </div>
+
+                <div className="flex-1">
+
+                  <h3 className="text-base md:text-lg font-semibold text-foreground">
+                    {Constants.doctorName}
+                  </h3>
+
+                  <p className="mt-1 text-xs md:text-sm text-muted-foreground">
+                    {Constants.qualifications}
+                  </p>
+
+                  <p className="text-xs md:text-sm text-muted-foreground">
+                    {Constants.qualifications1}
+                  </p>
+
+                  <p className="text-xs md:text-sm text-muted-foreground">
+                    {Constants.qualifications2}
+                  </p>
+
+                </div>
+
               </div>
-              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-                {Constants.aboutUsMessage}
-              </p>
+
+              <div className="mt-3 rounded-2xl bg-secondary/50 p-4">
+
+                <p className="text-sm leading-6 md:leading-7 text-muted-foreground">
+                  {Constants.aboutUsMessage}
+                </p>
+
+              </div>
+
             </div>
+
           </div>
 
-          {/* RIGHT CONTENT */}
-          <div>
-            <h2 className="mt-3 text-pretty font-serif text-3xl font-medium leading-tight text-foreground md:text-4xl">
-              Real care, from a physiotherapist who listens first.
-            </h2>
+          {/* RIGHT */}
 
-            <p className="mt-5 text-base leading-relaxed text-muted-foreground">
+          <div>
+
+            <span className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-4 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-primary">
+              About Dr. Shivali Gupta
+            </span>
+
+            <h2 className="mt-6 max-w-2xl font-serif text-4xl font-semibold leading-tight text-foreground md:text-5xl"></h2>
+
+            <p className="mt-8 text-lg leading-9 text-muted-foreground">
               {Constants.aboutUsDescription}
             </p>
 
-            <p className="mt-4 text-base leading-relaxed text-muted-foreground">
+            <p className="mt-6 text-lg leading-9 text-muted-foreground">
               {Constants.aboutUsDescription2}
             </p>
 
-            {/* 🔥 UPDATED SOCIAL MEDIA ICONS */}
-            <div className="mt-6 flex gap-3">
+            {/* Social */}
+
+            <div className="mt-10 flex flex-wrap gap-4">
+
               {socialMediaLinks.map((s) => (
+
                 <a
                   key={s.label}
                   href={s.href}
-                  aria-label={s.label}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="
-                    group relative flex h-10 w-10 items-center justify-center
-                    rounded-full border border-border text-muted-foreground
-                    transition-all duration-300 ease-out
-
-                    hover:-translate-y-1
-                    hover:scale-110
-                    hover:border-primary/40
-                    hover:text-white
-                    hover:shadow-lg hover:shadow-primary/20
-
-                    before:absolute before:inset-0 before:rounded-full
-                    before:bg-primary before:opacity-0
-                    before:transition-opacity before:duration-300
-                    hover:before:opacity-100
-                  "
+                  aria-label={s.label}
+                  className="group flex h-12 w-12 items-center justify-center rounded-2xl border border-border bg-background shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:bg-primary hover:text-white hover:shadow-xl"
                 >
-                  <s.icon className="relative z-10 h-4 w-4 transition-transform duration-300 group-hover:scale-110" />
+                  <s.icon className="h-5 w-5 transition-transform duration-300 group-hover:scale-110" />
                 </a>
+
               ))}
+
             </div>
 
-            {/* CARDS */}
-            <div className="mt-8 grid gap-3 sm:grid-cols-2">
+            {/* Cards */}
+
+            <div className="mt-12 grid gap-6 md:grid-cols-2">
               {AboutUsPoints.map((c) => (
                 <div
                   key={c.title}
-                  className="rounded-2xl border border-border bg-card p-5 transition-all duration-300 hover:bg-secondary/40 hover:shadow-md"
+                  className="
+                  group
+                  relative
+                  overflow-hidden
+                  rounded-[1.75rem]
+                  border
+                  border-border/60
+                  bg-card/90
+                  p-6
+                  shadow-sm
+                  backdrop-blur-xl
+                  transition-all
+                  duration-500
+                  hover:-translate-y-2
+                  hover:border-primary/30
+                  hover:shadow-2xl
+                "
                 >
-                  <span className="flex h-9 w-9 items-center justify-center rounded-full bg-secondary transition-transform duration-300 group-hover:scale-110">
-                    <c.icon className="h-4 w-4 text-primary" />
-                  </span>
+                  {/* Top Accent */}
 
-                  <h3 className="mt-3 text-sm font-medium text-foreground">
+                  <div
+                    className="
+                    absolute
+                    left-0
+                    top-0
+                    h-1
+                    w-0
+                    bg-primary
+                    transition-all
+                    duration-500
+                    group-hover:w-full
+                  "
+                  />
+
+                  {/* Icon */}
+
+                  <div
+                    className="
+                    flex
+                    h-12
+                    w-12
+                    md:h-14
+                    md:w-14                    
+                    items-center
+                    justify-center
+                    rounded-2xl
+                    bg-gradient-to-br
+                    from-primary/15
+                    to-primary/5
+                    shadow-inner
+                    transition-all
+                    duration-500
+                    group-hover:scale-110
+                    group-hover:rotate-6
+                  "
+                  >
+                    <c.icon className="h-5 w-5 md:h-6 md:w-6 text-primary" />
+                  </div>
+
+                  {/* Title */}
+
+                  <h3 className="mt-6 text-lg font-semibold text-foreground">
                     {c.title}
                   </h3>
 
+                  {/* Description */}
+
                   <Tooltip>
-                    <TooltipTrigger className="md:cursor-help">
-                      <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground md:line-clamp-3">
+                    <TooltipTrigger asChild>
+                      <p
+                        className="
+                        mt-3
+                        cursor-help
+                        text-sm
+                        leading-7
+                        text-muted-foreground
+                        line-clamp-4
+                      "
+                      >
                         {c.body}
                       </p>
                     </TooltipTrigger>
 
-                    <TooltipContent className="max-w-xs">
+                    <TooltipContent className="max-w-sm">
                       <p>{c.body}</p>
                     </TooltipContent>
                   </Tooltip>
+
+                  {/* Hover Glow */}
+
+                  <div
+                    className="
+                    pointer-events-none
+                    absolute
+                    -right-12
+                    -top-12
+                    h-32
+                    w-32
+                    rounded-full
+                    bg-primary/10
+                    opacity-0
+                    blur-3xl
+                    transition-opacity
+                    duration-500
+                    group-hover:opacity-100
+                  "
+                  />
                 </div>
               ))}
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </section>
-  );
-}
+  )}
