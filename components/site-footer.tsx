@@ -95,6 +95,7 @@ export function SiteFooter() {
 
               <span className="text-xs text-muted-foreground">
                 {Constants.clinicTimings}
+                <br />
                 {Constants.clinicHours}
               </span>
             </a>
