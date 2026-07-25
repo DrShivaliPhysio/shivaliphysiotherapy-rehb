@@ -251,7 +251,7 @@ hover:border-green-300
 
             <div className="mt-12 grid grid-cols-2 gap-4 lg:grid-cols-3">
               <StatCard
-                value={`${Constants.yearsExperience}+`}
+                value={Constants.yearsExperience}
                 label="Years Experience"
               />
 
@@ -435,7 +435,7 @@ hover:border-green-300
 
                 <div>
                   <p className="text-lg font-semibold text-slate-900">
-                    {Constants.yearsExperience}+
+                    {Constants.yearsExperience}
                   </p>
 
                   <p className="text-sm text-slate-500">Years Experience</p>

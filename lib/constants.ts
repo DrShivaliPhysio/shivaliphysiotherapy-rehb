@@ -7,7 +7,7 @@ export const Constants = {
   qualifications: "Consultant Physiotherapist | MPT(Neuro) | MIAP",
   qualifications1: "DNHE | PGDHHM | CKT | CCT | CDNT | CNDT | MFR",
   qualifications2: "Cert. in  Computer Ergonomics | Cert. in Hydrotherapy Yoga Wellness Instructor",
-  heroDescription: `Experience expert physiotherapy and rehabilitation at Dr. Shivali Physiotherapy & Rehabilitation Clinic. Visit our clinic in Yamunanagar for hands-on treatment or book an online consultation for personalized care from the comfort of your home.`,
+  heroDescription: `Experience expert physiotherapy and rehabilitation at Dr. Shivali's Physiotherapy & Rehabilitation Clinic. Visit our clinic in Yamunanagar for hands-on treatment or book an online consultation for personalized care from the comfort of your home.`,
   contactNo: "+919324843597",
   yearsExperience: "15+",
   patientsTreated: "25,000+",
@@ -21,16 +21,16 @@ export const Constants = {
   email: "Physiodrshivali@gmail.com",
   aboutUsMessage: `Recovery shouldn't feel rushed. We take the time to understand your story before building your plan. Because every body is different, 
   every treatment should be too. Together, we focus on steady progress, not quick fixes. Your recovery journey is guided with care, clarity, and consistency`,
-  aboutUsDescription: `Dr. Shivali Gupta has over 15 years of experience in physiotherapy and rehabilitation, helping patients recover from orthopedic, neurological, sports, and post-surgical conditions. At Dr. Shivali Physiotherapy & Rehabilitation Clinic in Yamunanagar, every treatment plan is personalized to restore mobility, reduce pain, and improve quality of life.`,
+  aboutUsDescription: `Dr. Shivali Gupta has over 15 years of experience in physiotherapy and rehabilitation, helping patients recover from orthopedic, neurological, sports, and post-surgical conditions. At Dr. Shivali's Physiotherapy & Rehabilitation Clinic in Yamunanagar, every treatment plan is personalized to restore mobility, reduce pain, and improve quality of life.`,
   aboutUsDescription2: "Patients can visit our clinic for comprehensive physiotherapy treatment. For those unable to travel, online consultations and follow-up rehabilitation sessions are also available by appointment.",
-  clinicName: "Dr. Shivali Physiotherapy & Rehabilitation Clinic",
+  clinicName: "Dr. Shivali's Physiotherapy & Rehabilitation Clinic",
   clinicAddressLine1: "9-10, Upper Ground",
   clinicAddressLine2: "Gupta Colony, Near Kanahiya Sahib Chowk",
   city: "Yamuna Nagar, Haryana",
   pincode: "135001",
   clinicTimings: "Monday – Saturday",
   clinicHours: "10:00 AM – 7:00 PM",
-  googleMapLink: "YOUR_GOOGLE_MAP_LINK",
+  googleMapLink: "https://maps.app.goo.gl/paaKVw3PfTjkmj7g9",
   siteUrl: "https://drshivaliphysio.com",
 };
 
@@ -57,7 +57,7 @@ export const AboutUsPoints = [
   {
     icon: MapPin,
     title: "Journey",
-    body: "Serving patients at Dr. Shivali Physiotherapy & Rehabilitation Clinic in Yamunanagar with evidence-based physiotherapy treatments. Online consultations are also available for patients who cannot visit the clinic.",
+    body: "Serving patients at Dr. Shivali's Physiotherapy & Rehabilitation Clinic in Yamunanagar with evidence-based physiotherapy treatments. Online consultations are also available for patients who cannot visit the clinic.",
   },
   {
     icon: HeartHandshake,
@@ -502,7 +502,7 @@ export const Faqs = [
     a: "Yes, physiotherapy plays a crucial role in both recovery and performance. It helps reduce pain, restore mobility, improve strength, and prevent re-injury. For  athletes and active individuals, customized rehab programs also enhance flexibility, endurance, and overall performance.",
   },
   {
-    q: "What does her specialize in ?",
+    q: "What does she specialize in ?",
     a: "She specializes in neuro rehabilitation, pain management, posture correction, ergonomics, and functional movement training. Her approach focuses on identifying the root cause and providing personalized treatment for long-term recovery.",
   },
   {
