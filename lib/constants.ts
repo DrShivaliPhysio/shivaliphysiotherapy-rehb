@@ -174,6 +174,11 @@ export const SpecialServices = [
 
 export const Awards = [
   {
+    icon: Trophy,
+    title: "Professional Recognition - World Physiotherapy AWP Regional Conference 2026",
+    body: "Recognized at the World Physiotherapy AWP Regional Conference 2026 in New Delhi as Panelist, Anchor and Esteemed Faculty, and for contributing as an Author to IAP's Caregivers Practical Guide for Neurorehabilitation.",
+    image: "/Award3.jpg",
+  },{
     icon: Award,
     title: "Nari Shakti Award - 2026",
     body: "Honored for outstanding contribution to women’s health and empowerment. Recognizing dedication, impact, and excellence in physiotherapy care.",

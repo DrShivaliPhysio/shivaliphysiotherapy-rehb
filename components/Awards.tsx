@@ -52,22 +52,22 @@ export function AwardsSection() {
               "
             >
               {/* Image */}
-              <div className="relative overflow-hidden">
-                <img
-                  src={award.image}
-                  alt={award.title}
-                  className="
-                    aspect-[4/3]
-                    w-full
-                    object-cover
-                    transition-transform
-                    duration-700
-                    group-hover:scale-105
-                  "
-                />
+              <div className="relative flex aspect-[4/3] items-center justify-center overflow-hidden bg-muted/40">
+  <img
+    src={award.image}
+    alt={award.title}
+    className="
+      h-full
+      w-full
+      object-contain
+      transition-transform
+      duration-700
+      group-hover:scale-105
+    "
+  />
 
-                <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
-              </div>
+  <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+</div>
 
               {/* Content */}
               <div className="p-7">
