@@ -4,9 +4,9 @@ import { Laptop2, HeartPulse, Trophy, UserRound, Heart, CircleDot, Waves, Rotate
 
 export const Constants = {
   doctorName: "Dr. Shivali Gupta (P.T)",
-  qualifications: "Consultant Physiotherapist | MPT(Neuro) | MIAP",
+  qualifications: "Consultant Physiotherapist | MPT(Neuro) | MIAP | Contributing Author",
   qualifications1: "DNHE | PGDHHM | CKT | CCT | CDNT | CNDT | MFR",
-  qualifications2: "Cert. in  Computer Ergonomics | Cert. in Hydrotherapy Yoga Wellness Instructor",
+  qualifications2: "Cert. in  Computer Ergonomics | Cert. in Hydrotherapy | Yoga Wellness Instructorcontributing Author",
   heroDescription: `Experience expert physiotherapy and rehabilitation at Dr. Shivali's Physiotherapy & Rehabilitation Clinic. Visit our clinic in Yamunanagar for hands-on treatment or book an online consultation for personalized care from the comfort of your home.`,
   contactNo: "+919324843597",
   yearsExperience: "15+",
